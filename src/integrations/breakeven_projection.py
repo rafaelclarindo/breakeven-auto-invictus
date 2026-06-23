@@ -98,10 +98,11 @@ def compute_financial_projections(
 def projection_start_month_offset(reference: date) -> int:
     """Meses à frente do mês de referência para a 1ª coluna projetada.
 
-    - Dia da geração <= 15: começa no mês seguinte.
-    - Dia da geração >= 16: começa no mês subsequente (pula o mês imediato).
+    Sempre o mês seguinte ao da geração (ex.: 22/jun/2026 → Jul/26).
+    A menção ao dia 15/16 na spec é só o corte operacional do mês corrente;
+    a projeção começa no próximo mês calendário em ambos os casos.
     """
-    return 1 if reference.day <= 15 else 2
+    return 1
 
 
 def projection_month_label(year: int, month: int) -> str:

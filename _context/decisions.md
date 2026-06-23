@@ -78,7 +78,7 @@
 ## 2026-06-23 — Cabeçalhos calendário nos cenários
 
 - **Decisão Rafael:** abas Pessimista/Realista/Otimista exibem meses reais (`Jul/26`), não `Mês 1`.
-- **Regra:** dia da geração ≤15 → 1ª coluna = mês seguinte; dia ≥16 → 1ª coluna = mês subsequente (+2).
+- **Regra:** 1ª coluna = **mês seguinte** ao da geração (ex.: 22/jun/2026 → Jul/26).
 - **Implementação:** `projection_month_headers()` em `breakeven_projection.py`; CLI `--reference-date`.
 
 ## 2026-06-22 — Nomenclatura de entrega Colli & CO

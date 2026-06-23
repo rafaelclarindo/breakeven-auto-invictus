@@ -6,7 +6,7 @@
 
 ## Entrega
 
-- **Google Sheets:** https://docs.google.com/spreadsheets/d/1nXeozUN1n2xsFqKg2u_L5aBYUw6nqwiIxMtmkLay_8U/edit?usp=drivesdk
+- **Google Sheets:** https://docs.google.com/spreadsheets/d/1ckqTbNN2f_yqTfUYwDZHZP84nHATh1f2zNp7WWBZpXU/edit?usp=drivesdk
 - **Título:** `[Colli & CO] - [O3NT …] - Breakeven E-commerce - AI Auto`
 - **Local:** `spreadsheet/o3nt-breakeven.xlsx`
 
@@ -24,7 +24,7 @@
 
 ## v3 — cabeçalhos calendário nos cenários
 
-- Colunas Pessimista / Realista / Otimista: **Ago/26, Set/26, …** (geração 22/jun/2026 → regra dia ≥16).
+- Colunas Pessimista / Realista / Otimista: **Jul/26, Ago/26, …** (geração 22/jun/2026 → mês seguinte).
 - Skill consolidada em `SKILL.md` + push GitHub.
 
 ## v2 — motor compartilhado + aba unificada

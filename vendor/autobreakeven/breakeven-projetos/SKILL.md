@@ -143,10 +143,9 @@ Nas abas **Pessimista**, **Realista** e **Otimista**, manter:
 
 | Dia da geração | 1ª coluna projetada |
 |----------------|---------------------|
-| **1–15** do mês | mês **seguinte** ao da geração |
-| **16–31** do mês | mês **subsequente** (pula o mês imediato) |
+| Qualquer dia | **mês seguinte** ao da geração |
 
-Ex.: geração em **22/jun/2026** → 1ª coluna **Ago/26**; geração em **10/jun/2026** → **Jul/26**.
+Ex.: geração em **22/jun/2026** → 1ª coluna **Jul/26**; geração em **10/jun/2026** → **Jul/26**.
 
 Opcional na CLI: `--reference-date YYYY-MM-DD` (padrão: hoje).
 

@@ -19,8 +19,7 @@ Skill consolidada: **upstream** (`vendor/autobreakeven/breakeven-projetos/SKILL.
 
 | Dia da geração | 1ª coluna |
 |----------------|-----------|
-| 1–15 | mês seguinte |
-| 16–31 | mês subsequente (offset +2) |
+| Qualquer dia | **mês seguinte** (ex.: jun/26 → Jul/26) |
 
 Implementação: `projection_month_headers()` em `src/integrations/breakeven_projection.py`.
 
