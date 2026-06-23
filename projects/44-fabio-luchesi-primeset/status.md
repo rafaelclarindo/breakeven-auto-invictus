@@ -6,7 +6,7 @@
 
 ## Entrega
 
-- **Google Sheets:** https://docs.google.com/spreadsheets/d/13Xba49hj2T3XtPIYLMb7ItG6rnNu1feu1K98-oQ1MyI/edit?usp=drivesdk
+- **Google Sheets:** https://docs.google.com/spreadsheets/d/11LH-DIFfE4qoJ6No-X9q2pzWpAcw-sCcI79XSQH94eQ/edit?usp=drivesdk
 - **Título:** `[Colli & CO] - [FABIO LUCHESI (Primeset)] - Breakeven Inside Sales - AI Auto`
 - **Local:** `spreadsheet/primeset-breakeven.xlsx`
 - **Growth Pack:** [INSIDE SALES PRIMESET V1](https://docs.google.com/spreadsheets/d/1cLMVytMO4Jq0GBAfJegc7EKvU-f-h9tEWeiPSc71Q5U/edit?usp=sharing)
@@ -20,7 +20,8 @@
 | Margem | 41% |
 | Breakeven competência | R$ 185.941 |
 | Modelo | Inside Sales + Lead quali (Ploomes) |
-| LT | Mar/26 – Jun/26 (4 meses) |
+| LT | Jan/26 – Jun/26 (6 meses — todo o GP com funil completo) |
+| Faturamento acumulado (GP) | R$ 231.246,55 |
 | Último mês | Jun/26 — faturamento R$ 12.326 |
 
 ## Pipeline
@@ -33,6 +34,6 @@
 
 ## Observações
 
-- Fee mensal V4 não existe no GP; usa Flow/SR (R$ 15.836).
+- **Acumulado histórico:** Jan–Jun/26 (6 meses válidos no GP) = **R$ 231.246,55** — versão anterior usava só Mar–Jun (LT 4 da SR) = R$ 153.790,84.
 - Mídia competência Flow (R$ 60k) vs investimento realizado histórico no GP (variável).
 - Jun/26 com queda forte de vendas (18) e receita — cenário mínimo puxado pelo breakeven da competência.

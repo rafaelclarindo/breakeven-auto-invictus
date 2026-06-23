@@ -69,7 +69,12 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Gera config inside sales Primeset.")
     parser.add_argument("--project-folder", type=Path, required=True)
     parser.add_argument("--output", type=Path, default=None)
-    parser.add_argument("--lt-months", type=int, default=4)
+    parser.add_argument(
+        "--lt-months",
+        type=int,
+        default=0,
+        help="Limitar aos últimos N meses (0 = todos os meses válidos do GP).",
+    )
     parser.add_argument("--seasonal-context", type=str, default="")
     args = parser.parse_args()
 
@@ -106,7 +111,8 @@ def main() -> None:
     if not months:
         raise ValueError(f"Nenhum mês válido em {SHEET}.")
 
-    months = months[-args.lt_months :]
+    if args.lt_months > 0:
+        months = months[-args.lt_months :]
     ticket = div(sum(m["revenue"] for m in months), sum(m["sales"] for m in months))
     current = months[-1]
     current_cps = div(current["media"], current["impressions"])
@@ -282,7 +288,7 @@ def main() -> None:
             "main_risk": "Receita faturada abaixo do breakeven da competência; queda de conversão SQL→venda em Jun/26.",
             "seasonal": seasonal or None,
             "diagnosis": [
-                f"LT de {len(months)} meses ({months[0]['label']}–{months[-1]['label']}) com funil completo no GP.",
+                f"LT de {len(months)} meses no GP ({months[0]['label']}–{months[-1]['label']}) — todos os meses com funil completo.",
                 f"Breakeven da competência: R$ {breakeven_competence:,.2f} (fee R$ {monthly_fee:,.0f} + mídia R$ {monthly_media:,.0f} / margem {margin:.0%}).",
                 f"Último mês ({current['label']}): faturamento R$ {current_revenue:,.2f}, {current['sales']:.0f} vendas, {current['impressions']:.0f} impressões.",
                 "Lead quali = Leads no Ploomes (linha 10); fee mensal V4 vem do Flow/SR (GP não registra fee).",

@@ -4,7 +4,7 @@
   "strategy_review_row": 45,
   "google_sheet": {
     "id": "13Xba49hj2T3XtPIYLMb7ItG6rnNu1feu1K98-oQ1MyI",
-    "url": "https://docs.google.com/spreadsheets/d/13Xba49hj2T3XtPIYLMb7ItG6rnNu1feu1K98-oQ1MyI/edit?usp=drivesdk",
+    "url": "https://docs.google.com/spreadsheets/d/11LH-DIFfE4qoJ6No-X9q2pzWpAcw-sCcI79XSQH94eQ/edit?usp=drivesdk",
     "share": "anyone_with_link_reader"
   },
   "premissas": {
@@ -12,7 +12,8 @@
     "media": 60000,
     "margin_pct": 41,
     "breakeven_competence": 185941.46341463415,
-    "lt": "Mar/26 a Jun/26",
+    "lt": "Jan/26 a Jun/26",
+    "revenue_accumulated_gp": 231246.55,
     "current_period": "Jun/26"
   },
   "projection_rules": {

@@ -23,6 +23,7 @@
 - **Horizonte:** não travar projeção em 7 meses. A projeção deve rodar até o breakeven acontecer, ou parar em um limite explícito quando o cenário não breakevar em prazo razoável.
 - **Saída esperada:** relatório e planilha devem mostrar o mês real de breakeven por cenário, seja antes, no mês 7, ou depois.
 - **Breakeven histórico:** se o projeto já estiver breakeven positivo com os dados históricos do Growth Pack, sinalizar explicitamente que o breakeven já foi atingido e separar isso da projeção futura.
+- **LT no acumulado:** usar **todos os meses válidos do GP** (funil + faturamento preenchidos) para Dados Fonte e “Feito até o momento”. O LT da Strategy Review (col. H) é referência Flow, não recorte automático do histórico — só limitar com `--lt-months` se o Rafael pedir.
 
 ## 2026-06-22 — Frente inside sales separada do e-commerce
 
