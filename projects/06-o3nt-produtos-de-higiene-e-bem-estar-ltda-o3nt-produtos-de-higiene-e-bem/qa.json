@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-06-23",
+  "status": "uploaded_v3_calendar_headers",
+  "google_sheet": {
+    "id": "1nXeozUN1n2xsFqKg2u_L5aBYUw6nqwiIxMtmkLay_8U",
+    "url": "https://docs.google.com/spreadsheets/d/1nXeozUN1n2xsFqKg2u_L5aBYUw6nqwiIxMtmkLay_8U/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "previous_v1_url": "https://docs.google.com/spreadsheets/d/1AByMatMbQyFLJVORIS5HJCXf4ttOu46CbJm5AphuZVg/edit?usp=drivesdk"
+  },
+  "local_outputs": {
+    "config": "config.json",
+    "spreadsheet": "spreadsheet/o3nt-breakeven.xlsx",
+    "growthpack": "source/growthpack.xlsx",
+    "inspection": "inspection/inspection.json",
+    "seasonal_context": "source/seasonal-context.txt"
+  },
+  "premissas": {
+    "fee": 5000,
+    "media": 4100,
+    "margin_pct": 40,
+    "breakeven_competence": 22750,
+    "lt": "Dez/25 a Jun/26",
+    "current_period": "Jun/26"
+  },
+  "projection_rules": {
+    "max_conversion_rate": 0.95,
+    "min_cost_per_impression": 0.8552700242683798,
+    "media_lever_after_monthly_breakeven": true
+  },
+  "features": [
+    "Aba Breakeven unificada v16 (e-commerce)",
+    "Motor financeiro compartilhado + personalização",
+    "Contexto sazonal SR col. O no Resumo Executivo"
+  ],
+  "notes": [
+    "Modelo E-commerce D2C — paridade de motor com Inside Sales (Soma v17).",
+    "GP 3.0: aba 6.0 Acompanhamento Mensal + taxas 4.2 Funil Mai/2026.",
+    "Fee histórico GP (R$ 8k → R$ 5,1k); projeção usa Flow/SR (R$ 5k fee, R$ 4,1k mídia)."
+  ]
+}

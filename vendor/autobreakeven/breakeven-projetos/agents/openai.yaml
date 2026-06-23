@@ -1,0 +1,4 @@
+interface:
+  display_name: "Breakeven de Projetos"
+  short_description: "Analisa Growth Pack e gera breakeven completo"
+  default_prompt: "Use $breakeven-projetos para analisar o Growth Pack deste projeto e gerar o relatório estratégico e a planilha de breakeven."

@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-06-22",
+  "status": "uploaded_v17_personalizado_cenarios_alinhados",
+  "google_sheet_v17": {
+    "id": "1PCcoCc9tvSqrBMHldiAwhfNk2G7wqBpnspu7fV1hEuM",
+    "url": "https://docs.google.com/spreadsheets/d/1PCcoCc9tvSqrBMHldiAwhfNk2G7wqBpnspu7fV1hEuM/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "method": "Motor financeiro único + textos personalizados do config/GP.",
+    "fixes": [
+      "Leitura estratégica: fee/mídia/margem e context do projeto (não Dalpack R$ 5 mil)",
+      "Cenários Pessimista/Realista/Otimista aplicam alavanca de mídia igual aba Breakeven",
+      "Realista BEP acumulado Mês 29 alinhado ao cenário mínimo",
+      "Resumo: linha Cenário mínimo (Breakeven) + título Inside Sales"
+    ]
+  },
+  "google_sheet_v16": {
+    "id": "1l1QZQT5obJc3HSpCv75-PtYKNXWvBFX0Ul4QNuqIqsI",
+    "url": "https://docs.google.com/spreadsheets/d/1l1QZQT5obJc3HSpCv75-PtYKNXWvBFX0Ul4QNuqIqsI/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "method": "Aba Breakeven unificada: header linha 2, funil completo no topo, bloco inferior removido.",
+    "fixes": [
+      "Linha 2: títulos Indicador / Feito até o momento / Cenário mínimo / meses",
+      "Funil completo (6 taxas Premissas + volumes) concatenado com financeiro",
+      "Removido bloco Funil completo do cenário mínimo (linhas 36-62 da v15)",
+      "Taxa SQLs→Vendas das Premissas (~18,7%), não 100% fixo",
+      "Resumo Executivo refs B33/C36; Funil Completo refs linhas 25/23/18/5/20/22"
+    ]
+  },
+  "google_sheet_v15": {
+    "id": "18jja3cQ5g23e3Ngc1euhyOHdMB99tbEw5LHSSmeTilc",
+    "url": "https://docs.google.com/spreadsheets/d/18jja3cQ5g23e3Ngc1euhyOHdMB99tbEw5LHSSmeTilc/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "method": "Premissas com 6 taxas editáveis do funil operacional Soma + Leads→Vendas calculada.",
+    "fixes": [
+      "Linhas 17-20: Leads→Lead quali, Lead quali→MQLs, MQLs→SQLs, SQLs→Vendas editáveis",
+      "Linha 21: Leads→Vendas = produto F17:F20 (verde, automática)",
+      "Breakeven integrado referencia Premissas nas taxas amarelas",
+      "Funil Completo: bloco de taxas expandido para 6 etapas"
+    ]
+  },
+  "google_sheet": {
+    "id": "1ljfS-zrwk0XEu_r06dEfLnfLND1qgYE4Kjj-1-yYh94",
+    "url": "https://docs.google.com/spreadsheets/d/1ljfS-zrwk0XEu_r06dEfLnfLND1qgYE4Kjj-1-yYh94/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader"
+  },
+  "google_sheet_v2": {
+    "id": "1wtaG0k0JTnj831qGNMNu27jFno7wZPMSIBheqkuXHFM",
+    "url": "https://docs.google.com/spreadsheets/d/1wtaG0k0JTnj831qGNMNu27jFno7wZPMSIBheqkuXHFM/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "fix": "Fórmulas com divisão protegidas com IFERROR para evitar #DIV/0! no Google Sheets."
+  },
+  "google_sheet_v3": {
+    "id": "1E_LwCveDPbYGf5Y1EAIkhGosmzdiZ65YjWjrM9JyYNQ",
+    "url": "https://docs.google.com/spreadsheets/d/1E_LwCveDPbYGf5Y1EAIkhGosmzdiZ65YjWjrM9JyYNQ/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "fix": "Versão estável com fórmulas congeladas em valores para eliminar erros de recálculo no Google Sheets."
+  },
+  "google_sheet_inside_sales_native": {
+    "id": "1SKTWCxUE_xs8REMBAqrnH2kmxxnL-c4RKVkZS4Ev4yE",
+    "url": "https://docs.google.com/spreadsheets/d/1SKTWCxUE_xs8REMBAqrnH2kmxxnL-c4RKVkZS4Ev4yE/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "method": "Funil inside sales nativo do Growth Pack: impressões, cliques, leads, MQLs, SQLs, vendas e faturamento.",
+    "historical_breakeven_status": "Breakeven ainda não atingido no histórico Jan/2026-Jun/2026."
+  },
+  "google_sheet_template_inside_sales_final": {
+    "id": "1R_Kg0tdgjlY5ejM_dnXg1TOWKR6mW_GlSwPMDtUJzQs",
+    "url": "https://docs.google.com/spreadsheets/d/1R_Kg0tdgjlY5ejM_dnXg1TOWKR6mW_GlSwPMDtUJzQs/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "method": "Estrutura e modelo da skill mantidos; apenas o funil foi relabelado/calculado como inside sales.",
+    "note": "Substituída pela v6 — continha 262 erros (#DIV/0! e #REF!) por referências fixas à linha 12."
+  },
+  "google_sheet_template_inside_sales_v11": {
+    "id": "1F8kYLiPUxq-yxX7TIJT2-VtSnBmWSEfI_886y859x7c",
+    "url": "https://docs.google.com/spreadsheets/d/1F8kYLiPUxq-yxX7TIJT2-VtSnBmWSEfI_886y859x7c/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "method": "Funil inside sales completo sem colunas/taxas neutras duplicadas em Dados Fonte e Premissas.",
+    "fixes": [
+      "Dados Fonte bench: 6 etapas reais (Impressões…Vendas)",
+      "Removidas colunas Add shipping/Add payment/Purchase duplicadas",
+      "Removidas taxas Checkout→Shipping e Payment→Purchase",
+      "Premissas: Impressões acumuladas e SQLs acumulados"
+    ]
+  },
+  "google_sheet_template_inside_sales_v10": {
+    "id": "1bZEBo6BLBwk6Wfhg1qnGxC6ytJ7W2W1adXwdMbo_Z9c",
+    "url": "https://docs.google.com/spreadsheets/d/1bZEBo6BLBwk6Wfhg1qnGxC6ytJ7W2W1adXwdMbo_Z9c/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "method": "Funil inside sales simplificado: impressões → cliques → leads → MQLs → SQLs → vendas (sem etapas e-commerce redundantes).",
+    "fixes": [
+      "Removidas taxas artificiais Vendas → Vendas e Etapa neutra",
+      "Funil termina em Taxa SQLs → Vendas",
+      "Labels financeiros: Impressões, SQLs, Taxa SQLs → Vendas"
+    ],
+    "export_check_errors": null
+  },
+  "google_sheet_template_inside_sales_v6": {
+    "id": "1WLyI1ClH6P8vvtlXN25yti97N2_5nSyxh9t81n-VoOk",
+    "url": "https://docs.google.com/spreadsheets/d/1WLyI1ClH6P8vvtlXN25yti97N2_5nSyxh9t81n-VoOk/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader",
+    "method": "Template da skill + funil inside sales. Referências dinâmicas a Dados Fonte, refs de aba corrigidas, taxas reais do funil.",
+    "fixes": [
+      "Premissas usa linha total dinâmica (G10/F10 para 6 meses, não G12 fixo)",
+      "relabel atualiza referências Breakeven 7M → Breakeven",
+      "Funil mínimo usa taxa Leads → MQLs real (~20%), não 100%",
+      "Divisões protegidas com IFERROR"
+    ],
+    "export_check_errors": 0
+  },
+  "local_outputs": {
+    "report": "report/[Gerência] - [Análise e Estratégia] - [Soma Soluções].md",
+    "spreadsheet": "spreadsheet/Soma Soluções - Projeção Breakeven Inside Sales.xlsx",
+    "spreadsheet_v2": "spreadsheet/Soma Soluções - Projeção Breakeven Inside Sales v2.xlsx",
+    "spreadsheet_v3": "spreadsheet/Soma Soluções - Projeção Breakeven Inside Sales v3-estavel.xlsx",
+    "spreadsheet_inside_sales_native": "spreadsheet/Soma Soluções - Breakeven Inside Sales Nativo.xlsx",
+    "report_inside_sales_native": "report/[Gerência] - [Análise e Estratégia] - [Soma Soluções - Inside Sales Nativo].md",
+    "spreadsheet_template_inside_sales_final": "spreadsheet/Soma Soluções - Breakeven Template Inside Sales Final.xlsx",
+    "spreadsheet_template_inside_sales_v11": "spreadsheet/Soma Soluções - Breakeven Inside Sales v11.xlsx",
+    "report_template_inside_sales": "report/[Gerência] - [Análise e Estratégia] - [Soma Soluções - Template Inside Sales].md"
+  },
+  "validation": {
+    "xlsx_opens": true,
+    "sheets": [
+      "Resumo Executivo",
+      "Breakeven 7M",
+      "Pessimista",
+      "Realista",
+      "Otimista",
+      "Funil Completo",
+      "Premissas",
+      "Dados Fonte"
+    ],
+    "formula_error_count": 0,
+    "v2_patched_formulas": 623,
+    "v2_export_check": "Fórmulas IFERROR preservadas após exportar o Google Sheets de volta para XLSX.",
+    "v3_replaced_formulas": 1184,
+    "v3_formula_count_after_export": 0,
+    "v3_error_count_after_export": 0,
+    "inside_sales_native_formula_count_after_export": 0,
+    "inside_sales_native_error_count_after_export": 0,
+    "template_inside_sales_final_error_count_after_export": 262,
+    "template_inside_sales_v6_error_count_after_export": 0,
+    "template_inside_sales_final_sheets": [
+      "Resumo Executivo",
+      "Breakeven",
+      "Pessimista",
+      "Realista",
+      "Otimista",
+      "Funil Completo",
+      "Premissas",
+      "Dados Fonte"
+    ]
+  },
+  "summary": {
+    "monthly_break_even": 248000.0,
+    "current_result": -150700.85,
+    "future_required_7m": 2740672.33,
+    "realistic_breakeven_month": "Mês 7",
+    "optimistic_breakeven_month": "Mês 6",
+    "pessimistic_breakeven_month": "Não breakeva"
+  },
+  "old_breakeven": {
+    "strategy_review_cell": "M18",
+    "url": "https://docs.google.com/spreadsheets/d/1ptdQCIQdKPuT770fHO1JoII3NfIA1x0EVouuRmlUImM/edit?gid=1192649677",
+    "downloaded_to": "source/old-breakeven.xlsx",
+    "notes": [
+      "A aba Projeção Break Even usa Fee Mensal de R$ 5.500.",
+      "A aba Projeção Break Even usa Verba de mídia de R$ 35.000.",
+      "A projeção futura usa Margem Contribuição de 15%.",
+      "A estrutura antiga é inside sales, com Taxa de Conversão SQL -> Venda."
+    ]
+  },
+  "limitations": [
+    "Growth Pack traz apenas Janeiro/2024 a Março/2024 com Fee V4 preenchido.",
+    "Growth Pack mostra Fee V4 histórico de R$ 17.000, enquanto Flow/Strategy Review mostra Fee atual de R$ 7.200.",
+    "Growth Pack mostra margem de 30% na Tabela Mensal, enquanto Flow/Strategy Review e breakeven antigo usam 15%.",
+    "Funil inside sales foi adaptado ao contrato atual do gerador da skill, que ainda é orientado a e-commerce."
+  ]
+}

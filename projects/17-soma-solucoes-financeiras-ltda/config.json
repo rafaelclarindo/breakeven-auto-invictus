@@ -1,0 +1,459 @@
+{
+  "client": "SOMA SOLUCOES FINANCEIRAS LTDA",
+  "project_model": "Inside Sales / geração de demanda",
+  "current_period": "Março/2024 fechado",
+  "lt_period": "Janeiro/2024 a Março/2024",
+  "margin": 0.15,
+  "monthly_fee": 7200.0,
+  "monthly_media": 30000.0,
+  "source_mapping": {
+    "fee": "Growth Pack > Tabela Mensal > linha 4 para acumulado; Flow/Strategy Review para competência",
+    "media": "Growth Pack > Tabela Mensal > linha 8 para acumulado; Flow/Strategy Review para competência",
+    "revenue": "Growth Pack > Tabela Mensal > linha 16",
+    "inside_sales_funnel": "Sessões linha 12, Add cart/leads linha 13, Pedidos linha 14, Vendas linha 15",
+    "old_breakeven": "Strategy Review coluna M analisada em source/old-breakeven.xlsx"
+  },
+  "source_months": [
+    [
+      "Janeiro/2024",
+      17000.0,
+      59841.0,
+      181346.0,
+      2909.0,
+      2463.0,
+      312311.0
+    ],
+    [
+      "Fevereiro/2024",
+      17000.0,
+      106289.0,
+      103975.0,
+      1963.0,
+      1876.0,
+      268867.0
+    ],
+    [
+      "Março/2024",
+      17000.0,
+      63648.0,
+      126614.0,
+      2006.0,
+      2169.0,
+      286003.0
+    ]
+  ],
+  "benchmark_months": [
+    [
+      "Janeiro/2024",
+      181346.0,
+      181346.0,
+      4500.0,
+      2909.0,
+      2909.0,
+      2909.0,
+      2463.0,
+      2463.0
+    ],
+    [
+      "Fevereiro/2024",
+      103975.0,
+      103975.0,
+      4500.0,
+      1963.0,
+      1963.0,
+      1963.0,
+      1876.0,
+      1876.0
+    ],
+    [
+      "Março/2024",
+      126614.0,
+      126614.0,
+      4500.0,
+      2006.0,
+      2006.0,
+      2006.0,
+      2169.0,
+      2169.0
+    ]
+  ],
+  "current_funnel": {
+    "sessions": 126614.0,
+    "page_view": 110729.0,
+    "view_item": 126614.0,
+    "add_to_cart": 4500.0,
+    "view_cart": 2006.0,
+    "begin_checkout": 2006.0,
+    "add_shipping_info": 2006.0,
+    "add_payment_info": 2169.0,
+    "orders": 2006.0,
+    "sales": 2169.0,
+    "purchase": 2169.0,
+    "revenue": 286003.0,
+    "media": 63648.0
+  },
+  "minimum_scenario": {
+    "revenue": [
+      286003.0,
+      328903.45,
+      371803.9,
+      408984.29,
+      440444.62,
+      460464.83
+    ],
+    "session_view": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "view_add": [
+      0.03554109340199346,
+      0.0364296207370433,
+      0.03731814807209313,
+      0.03820667540714297,
+      0.03909520274219281,
+      0.039983730077242645,
+      0.04087225741229248
+    ],
+    "add_cart_purchase": 0.482,
+    "approval_target": 0.974793683138054,
+    "order_sale": [
+      0.9365664798777381,
+      0.9429376804211241,
+      0.94930888096451,
+      0.9556800815078961,
+      0.9620512820512821,
+      0.968422482594668,
+      0.974793683138054
+    ]
+  },
+  "scenarios": {
+    "Pessimista": {
+      "media": [
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0
+      ],
+      "revenue": [
+        243102.55,
+        257402.7,
+        271702.85,
+        286003.0,
+        300303.15,
+        314603.3,
+        328903.45
+      ],
+      "ticket": [
+        133.25,
+        134.58,
+        135.91,
+        137.25,
+        138.58,
+        139.91,
+        141.24
+      ],
+      "session_view": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "view_cart_share": [
+        0.014437043000672747,
+        0.014838071972913657,
+        0.015239100945154566,
+        0.015640129917395475,
+        0.016041158889636385,
+        0.016442187861877296,
+        0.016843216834118206
+      ],
+      "add_view_cart": [
+        0.42348888888888886,
+        0.4309185185185185,
+        0.43834814814814815,
+        0.4457777777777778,
+        0.4532074074074074,
+        0.46063703703703707,
+        0.4680666666666667
+      ],
+      "viewcart_checkout": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "checkout_shipping": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "shipping_payment": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "payment_order": [
+        0.9365664798777381,
+        0.9429376804211241,
+        0.94930888096451,
+        0.9556800815078961,
+        0.9620512820512821,
+        0.968422482594668,
+        0.974793683138054
+      ],
+      "order_sale": [
+        0.9365664798777381,
+        0.9429376804211241,
+        0.94930888096451,
+        0.9556800815078961,
+        0.9620512820512821,
+        0.968422482594668,
+        0.974793683138054
+      ],
+      "tab_color": "#C55A11"
+    },
+    "Realista": {
+      "media": [
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0
+      ],
+      "revenue": [
+        286003.0,
+        328903.45,
+        371803.9,
+        408984.29,
+        440444.62,
+        460464.83,
+        480485.04
+      ],
+      "ticket": [
+        133.25,
+        134.58,
+        135.91,
+        137.25,
+        138.58,
+        139.91,
+        141.24
+      ],
+      "session_view": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "view_cart_share": [
+        0.016041158889636385,
+        0.016709540510037903,
+        0.017377922130439417,
+        0.018046303750840934,
+        0.01871468537124245,
+        0.019383066991643966,
+        0.020051448612045483
+      ],
+      "add_view_cart": [
+        0.42348888888888886,
+        0.4309185185185185,
+        0.43834814814814815,
+        0.4457777777777778,
+        0.4532074074074074,
+        0.46063703703703707,
+        0.4680666666666667
+      ],
+      "viewcart_checkout": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "checkout_shipping": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "shipping_payment": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "payment_order": [
+        0.9365664798777381,
+        0.9429376804211241,
+        0.94930888096451,
+        0.9556800815078961,
+        0.9620512820512821,
+        0.968422482594668,
+        0.974793683138054
+      ],
+      "order_sale": [
+        0.9365664798777381,
+        0.9429376804211241,
+        0.94930888096451,
+        0.9556800815078961,
+        0.9620512820512821,
+        0.968422482594668,
+        0.974793683138054
+      ],
+      "tab_color": "#5B9BD5"
+    },
+    "Otimista": {
+      "media": [
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0,
+        30000.0
+      ],
+      "revenue": [
+        314603.3,
+        357503.75,
+        414704.35,
+        457604.8,
+        500505.25,
+        543405.7,
+        586306.15
+      ],
+      "ticket": [
+        133.25,
+        134.58,
+        135.91,
+        137.25,
+        138.58,
+        139.91,
+        141.24
+      ],
+      "session_view": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "view_cart_share": [
+        0.016843216834118206,
+        0.01791262742676063,
+        0.018982038019403055,
+        0.020051448612045483,
+        0.021120859204687908,
+        0.022190269797330332,
+        0.023259680389972757
+      ],
+      "add_view_cart": [
+        0.42348888888888886,
+        0.4309185185185185,
+        0.43834814814814815,
+        0.4457777777777778,
+        0.4532074074074074,
+        0.46063703703703707,
+        0.4680666666666667
+      ],
+      "viewcart_checkout": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "checkout_shipping": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "shipping_payment": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "payment_order": [
+        0.9365664798777381,
+        0.9429376804211241,
+        0.94930888096451,
+        0.9556800815078961,
+        0.9620512820512821,
+        0.968422482594668,
+        0.974793683138054
+      ],
+      "order_sale": [
+        0.9365664798777381,
+        0.9429376804211241,
+        0.94930888096451,
+        0.9556800815078961,
+        0.9620512820512821,
+        0.968422482594668,
+        0.974793683138054
+      ],
+      "tab_color": "#70AD47"
+    }
+  },
+  "context": {
+    "product": "Executar",
+    "phase": "Teste Strategy Review / skill Jefferson",
+    "main_risk": "Divergência entre Growth Pack, Flow e breakeven antigo; funil inside sales adaptado ao contrato e-commerce do gerador.",
+    "diagnosis": [
+      "O Growth Pack traz apenas Janeiro a Março/2024 com Fee V4 preenchido, então o LT usado no acumulado é de 3 meses.",
+      "A competência usa Fee R$ 7.200, mídia R$ 30.000 e margem 15% da Strategy Review/Flow.",
+      "O breakeven antigo da coluna M usa outro contrato financeiro na aba Projeção Break Even: Fee R$ 5.500 e mídia R$ 35.000.",
+      "A aba Tabela Mensal do Growth Pack mostra margem 30%, mas a Strategy Review/Flow e o breakeven antigo usam 15% como margem de projeção.",
+      "Como o projeto é inside sales, as etapas não disponíveis no contrato e-commerce foram mantidas como passagem neutra e documentadas no gate."
+    ],
+    "actions": [
+      "Confirmar se a margem oficial para Soma deve ser 15% ou 30%",
+      "Confirmar se o Fee vigente para breakeven da competência é R$ 7.200 ou o Fee histórico de R$ 17.000 do Growth Pack",
+      "Validar com o time se a etapa Add cart do Growth Pack representa leads/cadastros para Soma"
+    ]
+  }
+}

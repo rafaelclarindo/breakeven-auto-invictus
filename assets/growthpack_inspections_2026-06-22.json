@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-06-22",
+  "selected": 1,
+  "inspected": 1,
+  "skipped": 0,
+  "failed": 0,
+  "results": [
+    {
+      "order": 17,
+      "name": "SOMA SOLUCOES FINANCEIRAS LTDA",
+      "folder": "projects\\17-soma-solucoes-financeiras-ltda",
+      "input": "projects\\17-soma-solucoes-financeiras-ltda\\source\\growthpack.xlsx",
+      "output": "projects\\17-soma-solucoes-financeiras-ltda\\inspection\\inspection.json",
+      "status": "inspected",
+      "message": "Inspeção gerada."
+    }
+  ]
+}

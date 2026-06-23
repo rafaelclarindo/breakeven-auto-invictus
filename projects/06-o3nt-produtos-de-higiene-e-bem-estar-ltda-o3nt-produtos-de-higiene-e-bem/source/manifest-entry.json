@@ -1,0 +1,22 @@
+{
+  "order": 6,
+  "name": "O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA(O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA - 10.782.491/0001-23)",
+  "document_id": "e16o0g5nob7bctnqwgzq2eap",
+  "coordinator": "jefferson.vieira",
+  "slug": null,
+  "fee": 5000.0,
+  "media_planned": 4100.0,
+  "margin_pct": 40.0,
+  "growthpack_updated_link": "https://docs.google.com/spreadsheets/d/1xqoZWAARIOeTRjUehiQRD5iyZDjEGI-ID1TQJWgh8KQ/edit?gid=2021327928#gid=2021327928",
+  "cockpit_fields": {
+    "fee": "fee",
+    "media_planned": "campaigns_budget_milestone_total_qty",
+    "margin_pct": "results_contribution_margin_pct",
+    "growthpack_updated_link": "paid_traffic_growthpack_updated_link"
+  },
+  "portfolio_folder": "projects\\06-o3nt-produtos-de-higiene-e-bem-estar-ltda-o3nt-produtos-de-higiene-e-bem",
+  "readiness_status": "ready",
+  "readiness_reasons": [
+    "Insumos Flow mínimos disponíveis."
+  ]
+}

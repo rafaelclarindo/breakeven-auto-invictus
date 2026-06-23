@@ -1,0 +1,22 @@
+{
+  "order": 17,
+  "name": "SOMA SOLUCOES FINANCEIRAS LTDA",
+  "document_id": "lfr0cvrmixn66w16hptedd1i",
+  "coordinator": "jefferson.vieira",
+  "slug": null,
+  "fee": 7200.0,
+  "media_planned": 30000.0,
+  "margin_pct": 15.0,
+  "growthpack_updated_link": "https://docs.google.com/spreadsheets/d/1SJrM1xdV56Mxi3PCLWiO_UyhMsA9akcWW8GlJXytsZE/edit?gid=617612824#gid=617612824",
+  "cockpit_fields": {
+    "fee": "fee",
+    "media_planned": "campaigns_budget_milestone_total_qty",
+    "margin_pct": "results_contribution_margin_pct",
+    "growthpack_updated_link": "paid_traffic_growthpack_updated_link"
+  },
+  "portfolio_folder": "projects\\17-soma-solucoes-financeiras-ltda",
+  "readiness_status": "ready",
+  "readiness_reasons": [
+    "Insumos Flow mínimos disponíveis."
+  ]
+}

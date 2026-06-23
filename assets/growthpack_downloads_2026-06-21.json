@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-06-21",
+  "selected": 5,
+  "downloaded": 3,
+  "skipped": 0,
+  "failed": 2,
+  "results": [
+    {
+      "order": 1,
+      "name": "MANCHESTER DISTRIBUIDORA DE FERRO E ACO LTDA",
+      "folder": "projects\\01-manchester-distribuidora-de-ferro-e-aco-ltda",
+      "output": "projects\\01-manchester-distribuidora-de-ferro-e-aco-ltda\\source\\growthpack.xlsx",
+      "status": "downloaded",
+      "message": "Growth Pack baixado."
+    },
+    {
+      "order": 2,
+      "name": "BINARIO TECNOLOGIA DISTRIBUIDORA LTDA",
+      "folder": "projects\\02-binario-tecnologia-distribuidora-ltda",
+      "output": "projects\\02-binario-tecnologia-distribuidora-ltda\\source\\growthpack.xlsx",
+      "status": "downloaded",
+      "message": "Growth Pack baixado."
+    },
+    {
+      "order": 3,
+      "name": "Promax Supertroca – Yanmar Agritech",
+      "folder": "projects\\03-promax-supertroca-yanmar-agritech",
+      "output": "projects\\03-promax-supertroca-yanmar-agritech\\source\\growthpack.xlsx",
+      "status": "downloaded",
+      "message": "Growth Pack baixado."
+    },
+    {
+      "order": 4,
+      "name": "SIGO ERP(DUO3 SOLUCOES EM TECNOLOGIA DA INFORMACAO LTDA)(DUO3 SOLUCOES EM TECNOLOGIA DA INFORMACAO LTDA)",
+      "folder": "projects\\04-sigo-erp-duo3-solucoes-em-tecnologia-da-informacao-ltda-duo3-solucoes-em",
+      "output": "projects\\04-sigo-erp-duo3-solucoes-em-tecnologia-da-informacao-ltda-duo3-solucoes-em\\source\\growthpack.xlsx",
+      "status": "failed",
+      "message": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "order": 5,
+      "name": "SA GONDOLAS DE ACO LTDA",
+      "folder": "projects\\05-sa-gondolas-de-aco-ltda",
+      "output": "projects\\05-sa-gondolas-de-aco-ltda\\source\\growthpack.xlsx",
+      "status": "failed",
+      "message": "HTTP Error 401: Unauthorized"
+    }
+  ]
+}

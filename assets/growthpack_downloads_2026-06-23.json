@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-06-23",
+  "selected": 1,
+  "downloaded": 1,
+  "skipped": 0,
+  "failed": 0,
+  "results": [
+    {
+      "order": 6,
+      "name": "O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA(O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA - 10.782.491/0001-23)",
+      "folder": "projects\\06-o3nt-produtos-de-higiene-e-bem-estar-ltda-o3nt-produtos-de-higiene-e-bem",
+      "output": "projects\\06-o3nt-produtos-de-higiene-e-bem-estar-ltda-o3nt-produtos-de-higiene-e-bem\\source\\growthpack.xlsx",
+      "status": "downloaded",
+      "message": "Growth Pack baixado."
+    }
+  ]
+}

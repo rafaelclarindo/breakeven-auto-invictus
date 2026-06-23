@@ -1,0 +1,976 @@
+{
+  "source_manifest": "assets\\strategy_review_manifest_2026-06-21.json",
+  "generated_at": "2026-06-21",
+  "project_count": 74,
+  "ready": 49,
+  "needs_review": 11,
+  "blocked": 14,
+  "projects": [
+    {
+      "order": 1,
+      "name": "MANCHESTER DISTRIBUIDORA DE FERRO E ACO LTDA",
+      "slug": "01-manchester-distribuidora-de-ferro-e-aco-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\01-manchester-distribuidora-de-ferro-e-aco-ltda",
+      "has_growthpack_link": true,
+      "document_id": "outj914u11p5ev69rkzwngc0",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 2,
+      "name": "BINARIO TECNOLOGIA DISTRIBUIDORA LTDA",
+      "slug": "02-binario-tecnologia-distribuidora-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\02-binario-tecnologia-distribuidora-ltda",
+      "has_growthpack_link": true,
+      "document_id": "hn8i7z1rs6qgo62fvsoi5s30",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 3,
+      "name": "Promax Supertroca – Yanmar Agritech",
+      "slug": "03-promax-supertroca-yanmar-agritech",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\03-promax-supertroca-yanmar-agritech",
+      "has_growthpack_link": true,
+      "document_id": "w2stn7c5lg3x9z717wqqftf1",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 4,
+      "name": "SIGO ERP(DUO3 SOLUCOES EM TECNOLOGIA DA INFORMACAO LTDA)(DUO3 SOLUCOES EM TECNOLOGIA DA INFORMACAO LTDA)",
+      "slug": "04-sigo-erp-duo3-solucoes-em-tecnologia-da-informacao-ltda-duo3-solucoes-em",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\04-sigo-erp-duo3-solucoes-em-tecnologia-da-informacao-ltda-duo3-solucoes-em",
+      "has_growthpack_link": true,
+      "document_id": "rthhpf8lb5n2scrlgiowz2et",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 5,
+      "name": "SA GONDOLAS DE ACO LTDA",
+      "slug": "05-sa-gondolas-de-aco-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\05-sa-gondolas-de-aco-ltda",
+      "has_growthpack_link": true,
+      "document_id": "g4tn8him3nacwct7rdjklnex",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 6,
+      "name": "O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA(O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA - 10.782.491/0001-23)",
+      "slug": "06-o3nt-produtos-de-higiene-e-bem-estar-ltda-o3nt-produtos-de-higiene-e-bem",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\06-o3nt-produtos-de-higiene-e-bem-estar-ltda-o3nt-produtos-de-higiene-e-bem",
+      "has_growthpack_link": true,
+      "document_id": "e16o0g5nob7bctnqwgzq2eap",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 7,
+      "name": "VISOFLEX PORTAS E PORTOES LTDA",
+      "slug": "07-visoflex-portas-e-portoes-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\07-visoflex-portas-e-portoes-ltda",
+      "has_growthpack_link": true,
+      "document_id": "z8zkanqedlkg4j7j6jhs3470",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 8,
+      "name": "ALUMTECH COMERCIO LTDA",
+      "slug": "08-alumtech-comercio-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\08-alumtech-comercio-ltda",
+      "has_growthpack_link": true,
+      "document_id": "crvhvrdjfevpowijhm01dy4k",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 9,
+      "name": "DALPACK COMERCIO ELETRONICO LTDA(DALPACK COMERCIO ELETRONICO LTDA - 42.458.501/0001-66)",
+      "slug": "09-dalpack-comercio-eletronico-ltda-dalpack-comercio-eletronico-ltda-42-458",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\09-dalpack-comercio-eletronico-ltda-dalpack-comercio-eletronico-ltda-42-458",
+      "has_growthpack_link": true,
+      "document_id": "mioz9do5mdl5v149e36627mi",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 10,
+      "name": "SUPRIMEDICO - COMERCIO DE ARTIGOS E EQUIPAMENTOS MEDICOS E HOSPITALARES LTDA(SUPRIMEDICO - COMERCIO DE ARTIGOS E EQUIPAMENTOS MEDICOS E HOSPITALARES LTDA - 35.491.267/0001-03)",
+      "slug": "10-suprimedico-comercio-de-artigos-e-equipamentos-medicos-e-hospitalares-lt",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\10-suprimedico-comercio-de-artigos-e-equipamentos-medicos-e-hospitalares-lt",
+      "has_growthpack_link": true,
+      "document_id": "hl7ijoktmu3nbzjsxecrhtcf",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 11,
+      "name": "BUBLU",
+      "slug": "11-bublu",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\11-bublu",
+      "has_growthpack_link": true,
+      "document_id": "l7whljfoe4yo1vis2p7rk9un",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 12,
+      "name": "DYDYO",
+      "slug": "12-dydyo",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\12-dydyo",
+      "has_growthpack_link": true,
+      "document_id": "b19n50f3c6dul4nio5d77ogr",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 13,
+      "name": "LF2 - INDUSTRIA E COMERCIO LTDA",
+      "slug": "13-lf2-industria-e-comercio-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\13-lf2-industria-e-comercio-ltda",
+      "has_growthpack_link": true,
+      "document_id": "s0i8jbu2ez78xbf7jiccnnc6",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 14,
+      "name": "AUDDAS INTERMEDIACAO DE NEGOCIOS LTDA",
+      "slug": "14-auddas-intermediacao-de-negocios-ltda",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\14-auddas-intermediacao-de-negocios-ltda",
+      "has_growthpack_link": true,
+      "document_id": "cch1s6ev9mc6nnh0j25jl6sn",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 15,
+      "name": "Aquatro Suprimentos",
+      "slug": "15-aquatro-suprimentos",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\15-aquatro-suprimentos",
+      "has_growthpack_link": true,
+      "document_id": "lb7rzh945l8qnyb53vbdea69",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 16,
+      "name": "ML PARTICIPACOES LTDA",
+      "slug": "16-ml-participacoes-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\16-ml-participacoes-ltda",
+      "has_growthpack_link": true,
+      "document_id": "ht3kvlib94obzrjd8u7lux8g",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 17,
+      "name": "SOMA SOLUCOES FINANCEIRAS LTDA",
+      "slug": "17-soma-solucoes-financeiras-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\17-soma-solucoes-financeiras-ltda",
+      "has_growthpack_link": true,
+      "document_id": "lfr0cvrmixn66w16hptedd1i",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 18,
+      "name": "CAPRICHO A TOA SERVICOS E COMERCIO DE CONFECCOES LTDA",
+      "slug": "18-capricho-a-toa-servicos-e-comercio-de-confeccoes-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\18-capricho-a-toa-servicos-e-comercio-de-confeccoes-ltda",
+      "has_growthpack_link": true,
+      "document_id": "wbtu6361vkuxa8koy8cmti8w",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 19,
+      "name": "COLINA DOS IPES - COMERCIO E ADMINISTRACAO DE PLANOS E ASSISTENCIA FUNERAL LTDA",
+      "slug": "19-colina-dos-ipes-comercio-e-administracao-de-planos-e-assistencia-funeral",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\19-colina-dos-ipes-comercio-e-administracao-de-planos-e-assistencia-funeral",
+      "has_growthpack_link": true,
+      "document_id": "gcrow71ivv1l1x9ijvtf5l81",
+      "coordinator": "jefferson.vieira"
+    },
+    {
+      "order": 20,
+      "name": "CONSTRUTORA E INCORPORADORA VILELA CAMPOS LTDA.",
+      "slug": "20-construtora-e-incorporadora-vilela-campos-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\20-construtora-e-incorporadora-vilela-campos-ltda",
+      "has_growthpack_link": true,
+      "document_id": "lz18y8tihzvjyshcsofq67mq",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 21,
+      "name": "MAIDPAD - ASSESSORIA BYLINE (MAIDPAD)",
+      "slug": "21-maidpad-assessoria-byline-maidpad",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\21-maidpad-assessoria-byline-maidpad",
+      "has_growthpack_link": true,
+      "document_id": "gy16eb0cq4nhs5rz8xa199r8",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 22,
+      "name": "INSTITUTO PANAMERICANO DE OFTALMOLOGIA LTDA(INSTITUTO PANAMERICANO DE OFTALMOLOGIA LTDA",
+      "slug": "22-instituto-panamericano-de-oftalmologia-ltda-instituto-panamericano-de-of",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\22-instituto-panamericano-de-oftalmologia-ltda-instituto-panamericano-de-of",
+      "has_growthpack_link": true,
+      "document_id": "xha52s6xeud3ir8p6fgvd1jb",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 23,
+      "name": "ESCRITORIO VICENTINI & ANDRADE SOCIEDADE DE ADVOGADOS S/S - 18.213.376/0001-40(ESCRITORIO VICENTINI & ANDRADE SOCIEDADE DE ADVOGADOS S/S - 18.213.376/0001-40) - MONETIZAÇÃO",
+      "slug": "23-escritorio-vicentini-andrade-sociedade-de-advogados-s-s-18-213-376-0001",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\23-escritorio-vicentini-andrade-sociedade-de-advogados-s-s-18-213-376-0001",
+      "has_growthpack_link": true,
+      "document_id": "shcnp4cn8klz8bgt4rb9eiqn",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 24,
+      "name": "MALBORK CORRETORA DE SEGUROS LTDA",
+      "slug": "24-malbork-corretora-de-seguros-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\24-malbork-corretora-de-seguros-ltda",
+      "has_growthpack_link": true,
+      "document_id": "cn3xikttslotdvjffwywkdgg",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 25,
+      "name": "PSM. COM PROFESSIONAL SERVICES MANAGEMENT INFORMATICA LTDA - Profissional de Gestão de Mídia Paga - Deal: 00c40883-fd74-491c-b459-6a848cfb5463",
+      "slug": "25-psm-com-professional-services-management-informatica-ltda-profissional-d",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\25-psm-com-professional-services-management-informatica-ltda-profissional-d",
+      "has_growthpack_link": true,
+      "document_id": "px0gbo4jd27oq6r7ssxeld1y",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 26,
+      "name": "BMB TECIDOS LTDA",
+      "slug": "26-bmb-tecidos-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\26-bmb-tecidos-ltda",
+      "has_growthpack_link": true,
+      "document_id": "qxveyh5wi482zcwwhw7rcx09",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 27,
+      "name": "CENTRO AUDITIVO MACAE",
+      "slug": "27-centro-auditivo-macae",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\27-centro-auditivo-macae",
+      "has_growthpack_link": true,
+      "document_id": "h0ziad5nqexyt5iunxsf9k2k",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 28,
+      "name": "GREEN WAY INSULATION(GREEN WAY INSULATION)",
+      "slug": "28-green-way-insulation-green-way-insulation",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\28-green-way-insulation-green-way-insulation",
+      "has_growthpack_link": true,
+      "document_id": "mit2nug5lp0i21od395lkic1",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 29,
+      "name": "V.L.O TEXTIL INDUSTRIA E COMERCIO IMPORTACAO E EXPORTACAO LTDA (V.L.O TEXTIL INDUSTRIA E COMERCIO IMPORTACAO E EXPORTACAO LTDA)",
+      "slug": "29-v-l-o-textil-industria-e-comercio-importacao-e-exportacao-ltda-v-l-o-tex",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\29-v-l-o-textil-industria-e-comercio-importacao-e-exportacao-ltda-v-l-o-tex",
+      "has_growthpack_link": true,
+      "document_id": "bby7i7txkod6ir6ekui5dmwq",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 30,
+      "name": "ELEVATE INCORPORADORA E CONSTRUTORA LTDA - Executar - 5c4ea8dc-633f-49c3-96d8-c158a68d95ee",
+      "slug": "30-elevate-incorporadora-e-construtora-ltda-executar-5c4ea8dc-633f-49c3-96d",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\30-elevate-incorporadora-e-construtora-ltda-executar-5c4ea8dc-633f-49c3-96d",
+      "has_growthpack_link": true,
+      "document_id": "bsbatk7lemxb9j20e3y8n279",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 31,
+      "name": "SIMPLE EDUCATION(SIMPLE EDUCATION EDITORA LTDA)(SIMPLE EDUCATION EDITORA LTDA)",
+      "slug": "31-simple-education-simple-education-editora-ltda-simple-education-editora",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\31-simple-education-simple-education-editora-ltda-simple-education-editora",
+      "has_growthpack_link": true,
+      "document_id": "vmtchurt82y2u0ekgi1ie8yx",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 32,
+      "name": "CENTRO DO SILICONE",
+      "slug": "32-centro-do-silicone",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\32-centro-do-silicone",
+      "has_growthpack_link": true,
+      "document_id": "ova1xst5cxfsizojvi26cej8",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 33,
+      "name": "BNU TECNOLOGIA EM INSTALACOES ELETRICAS E SEGURANCA LTDA (Global Sonic)",
+      "slug": "33-bnu-tecnologia-em-instalacoes-eletricas-e-seguranca-ltda-global-sonic",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\33-bnu-tecnologia-em-instalacoes-eletricas-e-seguranca-ltda-global-sonic",
+      "has_growthpack_link": true,
+      "document_id": "jkxvshsrplu6dgbxfwxu57b7",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 34,
+      "name": "CH BILHARES - GP TOYS",
+      "slug": "34-ch-bilhares-gp-toys",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\34-ch-bilhares-gp-toys",
+      "has_growthpack_link": true,
+      "document_id": "irqmwsm814mzbsyqkbj90uf8",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 35,
+      "name": "ESCOLA GREMIO SINOP LTDA",
+      "slug": "35-escola-gremio-sinop-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\35-escola-gremio-sinop-ltda",
+      "has_growthpack_link": true,
+      "document_id": "ksjwpihj4z339k2vxnj846db",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 36,
+      "name": "INSTITUTO GRUPO BOTICARIO",
+      "slug": "36-instituto-grupo-boticario",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\36-instituto-grupo-boticario",
+      "has_growthpack_link": true,
+      "document_id": "wlr7la1i6994d5z5m2rzfr8l",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 37,
+      "name": "CENTRO BRASILIENSE DE NEFROLOGIA LTDA",
+      "slug": "37-centro-brasiliense-de-nefrologia-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\37-centro-brasiliense-de-nefrologia-ltda",
+      "has_growthpack_link": true,
+      "document_id": "lrynlgctce7jf149be3uja8k",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 38,
+      "name": "MENDES & CIA TRANSPORTES E SOLUCOES LOGISTICAS LTDA",
+      "slug": "38-mendes-cia-transportes-e-solucoes-logisticas-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\38-mendes-cia-transportes-e-solucoes-logisticas-ltda",
+      "has_growthpack_link": true,
+      "document_id": "b3txs3b3no0j5fnwablbvetj",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 39,
+      "name": "BELLA GULA FRANQUIAS",
+      "slug": "39-bella-gula-franquias",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\39-bella-gula-franquias",
+      "has_growthpack_link": true,
+      "document_id": "oeygtogxpk0tb61w31xm1ygp",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 40,
+      "name": "BRG CONSULTORIA IMOBILIARIA LTDA (Prado Gonçalves)",
+      "slug": "40-brg-consultoria-imobiliaria-ltda-prado-goncalves",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\40-brg-consultoria-imobiliaria-ltda-prado-goncalves",
+      "has_growthpack_link": true,
+      "document_id": "hxren719dnfp7u3n2q2mkfd0",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 41,
+      "name": "PREVENT AUDIO COMERCIO DE APARELHOS AUDITIVOS LTDA - Executar - 6c9099c0-7f7e-49a2-8b46-70204532a192",
+      "slug": "41-prevent-audio-comercio-de-aparelhos-auditivos-ltda-executar-6c9099c0-7f7",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\41-prevent-audio-comercio-de-aparelhos-auditivos-ltda-executar-6c9099c0-7f7",
+      "has_growthpack_link": true,
+      "document_id": "imp26g72v6b5wvz6gx1mfjim",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 42,
+      "name": "TERRA FERTIL COM E REPRES LTDA",
+      "slug": "42-terra-fertil-com-e-repres-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\42-terra-fertil-com-e-repres-ltda",
+      "has_growthpack_link": true,
+      "document_id": "yt2yso4naaqbgom1qwk61hu1",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 43,
+      "name": "MSYS VISTORIAS LTDA",
+      "slug": "43-msys-vistorias-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\43-msys-vistorias-ltda",
+      "has_growthpack_link": true,
+      "document_id": "dt4b8ujx1pdaai4xwh9h3ct7",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 44,
+      "name": "FABIO LUCHESI (Primeset)",
+      "slug": "44-fabio-luchesi-primeset",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\44-fabio-luchesi-primeset",
+      "has_growthpack_link": true,
+      "document_id": "a0jtmay9iw9seqipsq8dqxwf",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 45,
+      "name": "VCA MUSIC LTDA",
+      "slug": "45-vca-music-ltda",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\45-vca-music-ltda",
+      "has_growthpack_link": true,
+      "document_id": "w7kadk2lliwu99eyf7zzmm84",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 46,
+      "name": "AMBIENT AIR COMERCIAL DE ELETRODOMESTICOS LTDA",
+      "slug": "46-ambient-air-comercial-de-eletrodomesticos-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\46-ambient-air-comercial-de-eletrodomesticos-ltda",
+      "has_growthpack_link": true,
+      "document_id": "dfreb61aiujpvpef7dhlortj",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 47,
+      "name": "Excel Group",
+      "slug": "47-excel-group",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow.",
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\47-excel-group",
+      "has_growthpack_link": false,
+      "document_id": "bnowl6w5h19q0vewkd3aokdh",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 48,
+      "name": "NOVO MILENIO UNIFORMES LTDA(NOVO MILENIO UNIFORMES LTDA - 05.335.577/0001-78)",
+      "slug": "48-novo-milenio-uniformes-ltda-novo-milenio-uniformes-ltda-05-335-577-0001",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\48-novo-milenio-uniformes-ltda-novo-milenio-uniformes-ltda-05-335-577-0001",
+      "has_growthpack_link": true,
+      "document_id": "mfg7oihxpmhb3kb61nkcdpmc",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 49,
+      "name": "FLORESTEC INDUSTRIA DE EQUIPAMENTOS FLORESTAIS LTDA",
+      "slug": "49-florestec-industria-de-equipamentos-florestais-ltda",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\49-florestec-industria-de-equipamentos-florestais-ltda",
+      "has_growthpack_link": true,
+      "document_id": "blpgsgsofd3nqzoj0hhxm21o",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 50,
+      "name": "VALMAGAL - ENGENHARIA E CONSTRUÇÃO LDA(VALMAGAL - ENGENHARIA E CONSTRUÇÃO LDA)",
+      "slug": "50-valmagal-engenharia-e-construcao-lda-valmagal-engenharia-e-construcao-ld",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow.",
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\50-valmagal-engenharia-e-construcao-lda-valmagal-engenharia-e-construcao-ld",
+      "has_growthpack_link": false,
+      "document_id": "x5aphl66noa647kjvo8644cf",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 51,
+      "name": "WF ENGENHARIA CONSTRUTORA E INCORPORADORA (W F CONSTRUTORA E INCORPORADORA LTDA)",
+      "slug": "51-wf-engenharia-construtora-e-incorporadora-w-f-construtora-e-incorporador",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\51-wf-engenharia-construtora-e-incorporadora-w-f-construtora-e-incorporador",
+      "has_growthpack_link": true,
+      "document_id": "d3ktsvgj4t4dthnazaien8eb",
+      "coordinator": "ueliton.pereira"
+    },
+    {
+      "order": 52,
+      "name": "ONCO IMPORT ASSESSORIA E CONSULTORIA LTDA - Executar - 7f35366e-71bb-4277-a0de-1577e92d1e0b",
+      "slug": "52-onco-import-assessoria-e-consultoria-ltda-executar-7f35366e-71bb-4277-a0",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow.",
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\52-onco-import-assessoria-e-consultoria-ltda-executar-7f35366e-71bb-4277-a0",
+      "has_growthpack_link": false,
+      "document_id": "xgjdx9mrn4wpv2kybtqj5gbo",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 53,
+      "name": "PORTICO ARQUITETURA E CONSTRUCOES LTDA",
+      "slug": "53-portico-arquitetura-e-construcoes-ltda",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\53-portico-arquitetura-e-construcoes-ltda",
+      "has_growthpack_link": true,
+      "document_id": "bbmfa6qali0klhvy0aa39r74",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 54,
+      "name": "IGA BLUMENAU(KAIROS GRI INSTITUTO DE GASTRONOMIA E CULINARIA LTDA )(KAIROS GRI INSTITUTO DE GASTRONOMIA E CULINARIA LTDA)",
+      "slug": "54-iga-blumenau-kairos-gri-instituto-de-gastronomia-e-culinaria-ltda-kairos",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\54-iga-blumenau-kairos-gri-instituto-de-gastronomia-e-culinaria-ltda-kairos",
+      "has_growthpack_link": true,
+      "document_id": "ma8rfivtwgurmvihu66um2hu",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 55,
+      "name": "BERRYGOOD COMERCIO, IMPORTACAO E DISTRIBUICAO DE FRUTAS LTDA.",
+      "slug": "55-berrygood-comercio-importacao-e-distribuicao-de-frutas-ltda",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\55-berrygood-comercio-importacao-e-distribuicao-de-frutas-ltda",
+      "has_growthpack_link": true,
+      "document_id": "ns4lu333rwz7fexc1h8wnwoo",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 56,
+      "name": "AXSIS CONSULTORIA EM SUPPLY CHAIN LTDA.",
+      "slug": "56-axsis-consultoria-em-supply-chain-ltda",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow.",
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\56-axsis-consultoria-em-supply-chain-ltda",
+      "has_growthpack_link": false,
+      "document_id": "tz9mdyndyl2z4yna21vjy23s",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 57,
+      "name": "DERMOCOSMETIC COMERCIO DE PRODUTOS DE BELEZA LTDA",
+      "slug": "57-dermocosmetic-comercio-de-produtos-de-beleza-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\57-dermocosmetic-comercio-de-produtos-de-beleza-ltda",
+      "has_growthpack_link": true,
+      "document_id": "o73xokj2qoa6xjcl6pg98a1m",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 58,
+      "name": "ECOSTORAGE SERVICOS LTDA",
+      "slug": "58-ecostorage-servicos-ltda",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow."
+      ],
+      "folder": "projects\\58-ecostorage-servicos-ltda",
+      "has_growthpack_link": false,
+      "document_id": "xzh3i9dntdz7z2odur9p07hl",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 59,
+      "name": "PLAY FIBRA SERVICOS DE INTERNET LTDA",
+      "slug": "59-play-fibra-servicos-de-internet-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\59-play-fibra-servicos-de-internet-ltda",
+      "has_growthpack_link": true,
+      "document_id": "pnw6kjq9v5scx5oedy2ulv85",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 60,
+      "name": "PORTIER COSMETICOS LTDA",
+      "slug": "60-portier-cosmeticos-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\60-portier-cosmeticos-ltda",
+      "has_growthpack_link": true,
+      "document_id": "awqp62lrzuy1nnbj8u56drbt",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 61,
+      "name": "FTM TRANSPORTES LTDA",
+      "slug": "61-ftm-transportes-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\61-ftm-transportes-ltda",
+      "has_growthpack_link": true,
+      "document_id": "tl8f3qntr9rwlajfxy16jpco",
+      "coordinator": "melissa.pessoa"
+    },
+    {
+      "order": 62,
+      "name": "FIBRALINK SERVICOS DE TECNOLOGIA DA INFORMACAO LTDA",
+      "slug": "62-fibralink-servicos-de-tecnologia-da-informacao-ltda",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow."
+      ],
+      "folder": "projects\\62-fibralink-servicos-de-tecnologia-da-informacao-ltda",
+      "has_growthpack_link": false,
+      "document_id": "tfd2z1aem4ceyst11b18insv",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 63,
+      "name": "SOTOBI MAQUINAS E ACESSORIOS PARA FABRICAS DE BLOCOS LTDA",
+      "slug": "63-sotobi-maquinas-e-acessorios-para-fabricas-de-blocos-ltda",
+      "status": "ready",
+      "reasons": [
+        "Insumos Flow mínimos disponíveis."
+      ],
+      "folder": "projects\\63-sotobi-maquinas-e-acessorios-para-fabricas-de-blocos-ltda",
+      "has_growthpack_link": true,
+      "document_id": "xbom9n4qhvzdorhpvh7v7suq",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 64,
+      "name": "ACCENTURE PARTICIPACOES LTDA(ACCENTURE PARTICIPACOES LTDA - 54.271.277/0001-88)",
+      "slug": "64-accenture-participacoes-ltda-accenture-participacoes-ltda-54-271-277-000",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\64-accenture-participacoes-ltda-accenture-participacoes-ltda-54-271-277-000",
+      "has_growthpack_link": true,
+      "document_id": "bxnt4vzw5x4yo5hty8hhrjdb",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 65,
+      "name": "M. RESENDE & CARVALHO EQUIPAMENTOS AGROINDUSTRIAIS LTDA",
+      "slug": "65-m-resende-carvalho-equipamentos-agroindustriais-ltda",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow."
+      ],
+      "folder": "projects\\65-m-resende-carvalho-equipamentos-agroindustriais-ltda",
+      "has_growthpack_link": false,
+      "document_id": "k0cjzd3zs7jegxd3rmwd50qj",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 66,
+      "name": "DPONET DESENVOLVIMENTO DE SISTEMAS E CONSULTORIA EM SEGURANCA DA INFORMACAO LTDA.",
+      "slug": "66-dponet-desenvolvimento-de-sistemas-e-consultoria-em-seguranca-da-informa",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow."
+      ],
+      "folder": "projects\\66-dponet-desenvolvimento-de-sistemas-e-consultoria-em-seguranca-da-informa",
+      "has_growthpack_link": false,
+      "document_id": "y5zf4lv6pghumecrwzgerabf",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 67,
+      "name": "AYA ENGENHARIA E PROJETOS LTDA",
+      "slug": "67-aya-engenharia-e-projetos-ltda",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow."
+      ],
+      "folder": "projects\\67-aya-engenharia-e-projetos-ltda",
+      "has_growthpack_link": false,
+      "document_id": "n3npo65drl578oopub69x7v7",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 68,
+      "name": "PG QUIMICA LTDA",
+      "slug": "68-pg-quimica-ltda",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow."
+      ],
+      "folder": "projects\\68-pg-quimica-ltda",
+      "has_growthpack_link": false,
+      "document_id": "hfih3pt1wielk2lsxjdgm22p",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 69,
+      "name": "AERO TD ESCOLA DE AVIACAO CIVIL LTDA",
+      "slug": "69-aero-td-escola-de-aviacao-civil-ltda",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow."
+      ],
+      "folder": "projects\\69-aero-td-escola-de-aviacao-civil-ltda",
+      "has_growthpack_link": false,
+      "document_id": "lc4xsoa12q3sa5n4c62umn5o",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 70,
+      "name": "PERNAMBUCO QUIMICA S A",
+      "slug": "70-pernambuco-quimica-s-a",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow."
+      ],
+      "folder": "projects\\70-pernambuco-quimica-s-a",
+      "has_growthpack_link": false,
+      "document_id": "uew0y9azjsmag2rd385q7p4p",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 71,
+      "name": "FREE WAY ARTEFATOS DE COURO LTDA",
+      "slug": "71-free-way-artefatos-de-couro-ltda",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow."
+      ],
+      "folder": "projects\\71-free-way-artefatos-de-couro-ltda",
+      "has_growthpack_link": false,
+      "document_id": "irfueoqt7vasw75fe4pxi3j3",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 72,
+      "name": "Massimo Zanetti Beverage Brasil Ltda",
+      "slug": "72-massimo-zanetti-beverage-brasil-ltda",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\72-massimo-zanetti-beverage-brasil-ltda",
+      "has_growthpack_link": true,
+      "document_id": "umc8om8dne121vd6qbeoct6n",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 73,
+      "name": "Sorvetes Jundia",
+      "slug": "73-sorvetes-jundia",
+      "status": "blocked",
+      "reasons": [
+        "Sem GrowthPack Atualizado no Flow."
+      ],
+      "folder": "projects\\73-sorvetes-jundia",
+      "has_growthpack_link": false,
+      "document_id": "aqcags64y56wd22p4nw7lqtu",
+      "coordinator": "thaina.gomes"
+    },
+    {
+      "order": 74,
+      "name": "TAWÁ VEÍCULOS",
+      "slug": "74-tawa-veiculos",
+      "status": "needs-review",
+      "reasons": [
+        "Margem de contribuição ausente ou zerada no Flow."
+      ],
+      "folder": "projects\\74-tawa-veiculos",
+      "has_growthpack_link": true,
+      "document_id": "haglpi4rxc474azwltm9j77b",
+      "coordinator": "thaina.gomes"
+    }
+  ]
+}
