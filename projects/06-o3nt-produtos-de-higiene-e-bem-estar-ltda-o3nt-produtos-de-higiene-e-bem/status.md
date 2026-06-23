@@ -6,7 +6,7 @@
 
 ## Entrega
 
-- **Google Sheets:** https://docs.google.com/spreadsheets/d/1ckqTbNN2f_yqTfUYwDZHZP84nHATh1f2zNp7WWBZpXU/edit?usp=drivesdk
+- **Google Sheets:** https://docs.google.com/spreadsheets/d/1s_N2z3IwO4BbE0ToHWwoXFIheeLruD9nmZ3fijkYUys/edit?usp=drivesdk
 - **Título:** `[Colli & CO] - [O3NT …] - Breakeven E-commerce - AI Auto`
 - **Local:** `spreadsheet/o3nt-breakeven.xlsx`
 
