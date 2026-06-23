@@ -1,0 +1,22 @@
+{
+  "order": 44,
+  "name": "FABIO LUCHESI (Primeset)",
+  "document_id": "a0jtmay9iw9seqipsq8dqxwf",
+  "coordinator": "ueliton.pereira",
+  "slug": null,
+  "fee": 15836.0,
+  "media_planned": 60000.0,
+  "margin_pct": 41.0,
+  "growthpack_updated_link": "https://docs.google.com/spreadsheets/d/1cLMVytMO4Jq0GBAfJegc7EKvU-f-h9tEWeiPSc71Q5U/edit?usp=sharing",
+  "cockpit_fields": {
+    "fee": "fee",
+    "media_planned": "campaigns_budget_milestone_total_qty",
+    "margin_pct": "results_contribution_margin_pct",
+    "growthpack_updated_link": "paid_traffic_growthpack_updated_link"
+  },
+  "portfolio_folder": "projects\\44-fabio-luchesi-primeset",
+  "readiness_status": "ready",
+  "readiness_reasons": [
+    "Insumos Flow mínimos disponíveis."
+  ]
+}

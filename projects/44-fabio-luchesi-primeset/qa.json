@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-23",
+  "status": "uploaded",
+  "strategy_review_row": 45,
+  "google_sheet": {
+    "id": "13Xba49hj2T3XtPIYLMb7ItG6rnNu1feu1K98-oQ1MyI",
+    "url": "https://docs.google.com/spreadsheets/d/13Xba49hj2T3XtPIYLMb7ItG6rnNu1feu1K98-oQ1MyI/edit?usp=drivesdk",
+    "share": "anyone_with_link_reader"
+  },
+  "premissas": {
+    "fee": 15836,
+    "media": 60000,
+    "margin_pct": 41,
+    "breakeven_competence": 185941.46341463415,
+    "lt": "Mar/26 a Jun/26",
+    "current_period": "Jun/26"
+  },
+  "projection_rules": {
+    "max_conversion_rate": 0.95,
+    "media_lever_after_monthly_breakeven": true
+  },
+  "features": [
+    "Inside sales + lead quali (Ploomes)",
+    "Aba Breakeven unificada v16",
+    "Cabeçalhos calendário Jul/26+",
+    "Builder GP layout Primeset"
+  ]
+}
