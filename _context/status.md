@@ -1,11 +1,17 @@
 # Status — Breakeven Auto
 
 **Atualizado:** 2026-06-23  
-**Status:** O3NT v3 + skill no GitHub — cabeçalhos calendário nos cenários
+**Status:** Primeset (SR linha 45) entregue + O3NT v3
+
+## Sessão 2026-06-23 — Primeset (FABIO LUCHESI, SR linha 45)
+
+- Inside Sales + Lead quali (Ploomes); builder `build_primeset_inside_sales_config.py` (GP linhas 5–17).
+- Premissas: Fee R$ 15.836 · Mídia R$ 60.000 · Margem 41% · LT Mar–Jun/26.
+- Entrega: https://docs.google.com/spreadsheets/d/13Xba49hj2T3XtPIYLMb7ItG6rnNu1feu1K98-oQ1MyI/edit?usp=drivesdk
 
 ## Sessão 2026-06-23 — Cabeçalhos calendário + skill GitHub
 
-- Cenários Pessimista/Realista/Otimista: meses reais (`Ago/26`, …) via `projection_month_headers()` — regra dia ≤15 vs ≥16.
+- Cenários: meses calendário (`Jul/26`, …) — 1ª coluna = mês seguinte à geração.
 - Skill consolidada: `SKILL.md` (Invictus + upstream Jefferson).
 - Repo: https://github.com/rafaelclarindo/breakeven-auto-invictus
 - O3NT v3: https://docs.google.com/spreadsheets/d/1nXeozUN1n2xsFqKg2u_L5aBYUw6nqwiIxMtmkLay_8U/edit?usp=drivesdk
