@@ -36,13 +36,13 @@ MONTH_PT = {
     12: "Dez",
 }
 # Referência 4.2 Funil — Mai/2026 a 15/Jun/2026 (Growth Pack O3NT)
-FUNNEL_RATES = {
+FUNNEL_RATES_RAW = {
     "session_view": 2896 / 5131,
     "view_add": 311 / 2896,
     "add_view_cart": 213 / 311,
     "viewcart_checkout": 192 / 213,
     "checkout_shipping": 95 / 192,
-    "shipping_payment": min(1.0, 96 / 95),
+    "shipping_payment": 96 / 95,
     "payment_order": 80 / 96,
     "order_sale": 65 / 80,
 }
@@ -71,6 +71,9 @@ def gradual(start: float, end: float, months: int = 7) -> list[float]:
 
 def cap_rate(value: float, maximum: float = 0.95) -> float:
     return min(maximum, value)
+
+
+FUNNEL_RATES = {key: cap_rate(value) for key, value in FUNNEL_RATES_RAW.items()}
 
 
 def build_funnel_volumes(sessions: float, purchase: float) -> dict[str, float]:
@@ -176,6 +179,15 @@ def main() -> None:
         for m in months
     )
     order_sale_med = cap_rate(median(safe_div(m["sales"], m["orders"]) for m in months))
+    shipping_payment_med = cap_rate(
+        median(
+            safe_div(
+                build_funnel_volumes(m["sessions"], m["sales"])["add_payment_info"],
+                build_funnel_volumes(m["sessions"], m["sales"])["add_shipping_info"],
+            )
+            for m in months
+        )
+    )
 
     source_months = [
         [m["label"], m["fee"], m["media"], m["sessions"], m["orders"], m["sales"], m["revenue"]]
@@ -257,7 +269,7 @@ def main() -> None:
             "add_view_cart": gradual(add_view_cart_med * 0.95, add_view_cart_med * 1.08),
             "viewcart_checkout": gradual(FUNNEL_RATES["viewcart_checkout"] * 0.98, cap_rate(FUNNEL_RATES["viewcart_checkout"] * 1.05)),
             "checkout_shipping": gradual(FUNNEL_RATES["checkout_shipping"] * 0.95, cap_rate(FUNNEL_RATES["checkout_shipping"] * 1.08)),
-            "shipping_payment": gradual(FUNNEL_RATES["shipping_payment"] * 0.98, min(1.0, FUNNEL_RATES["shipping_payment"] * 1.02)),
+            "shipping_payment": gradual(shipping_payment_med * 0.98, cap_rate(shipping_payment_med * 1.02)),
             "payment_order": gradual(FUNNEL_RATES["payment_order"] * 0.98, cap_rate(FUNNEL_RATES["payment_order"] * 1.05)),
             "order_sale": gradual(order_sale_med * 0.98, cap_rate(order_sale_med * 1.05)),
             "tab_color": scenario["tab_color"],

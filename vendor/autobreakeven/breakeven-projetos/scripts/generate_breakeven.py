@@ -681,14 +681,14 @@ def main():
         benchmark_rates.append(
             (
                 month,
-                min(1, view_item / sessions),
-                min(1, add_cart / view_item),
-                min(1, view_cart / add_cart),
-                min(1, checkout / view_cart),
-                min(1, shipping / checkout),
-                min(1, payment / shipping),
-                min(1, purchase / payment),
-                min(1, purchase / sessions),
+                cap_conversion_rate(view_item / sessions, max_conversion_rate) if sessions else 0,
+                cap_conversion_rate(add_cart / view_item, max_conversion_rate) if view_item else 0,
+                cap_conversion_rate(view_cart / add_cart, max_conversion_rate) if add_cart else 0,
+                cap_conversion_rate(checkout / view_cart, max_conversion_rate) if view_cart else 0,
+                cap_conversion_rate(shipping / checkout, max_conversion_rate) if checkout else 0,
+                cap_conversion_rate(payment / shipping, max_conversion_rate) if shipping else 0,
+                cap_conversion_rate(purchase / payment, max_conversion_rate) if payment else 0,
+                cap_conversion_rate(purchase / sessions, max_conversion_rate) if sessions else 0,
             )
         )
 
