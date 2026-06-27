@@ -83,7 +83,7 @@ def beu_row_labels_ecommerce() -> dict[int, str]:
     }
 
 
-def beu_row_labels() -> dict[int, str]:
+def beu_row_labels(extra_label: str = "Lead quali") -> dict[int, str]:
     return {
         BEU["cost_total"]: "Custos Fixos V4 + Mídia",
         BEU["fee"]: "Fee Mensal",
@@ -93,9 +93,9 @@ def beu_row_labels() -> dict[int, str]:
         BEU["clicks"]: "Cliques",
         BEU["rate_click_lead"]: "Taxa Cliques → Leads",
         BEU["leads"]: "Leads",
-        BEU["rate_lead_quali"]: "Taxa Leads → Lead quali",
-        BEU["lead_quali"]: "Lead quali",
-        BEU["rate_quali_mql"]: "Taxa Lead quali → MQLs",
+        BEU["rate_lead_quali"]: f"Taxa Leads → {extra_label}",
+        BEU["lead_quali"]: extra_label,
+        BEU["rate_quali_mql"]: f"Taxa {extra_label} → MQLs",
         BEU["mqls"]: "MQLs",
         BEU["rate_mql_sql"]: "Taxa MQLs → SQLs",
         BEU["sqls"]: "SQLs por mês",
@@ -148,6 +148,7 @@ def write_unified_breakeven_worksheet(
     div_formula,
     inside_sales_lead_to_sale_expr,
     funnel_mode: str = "inside_sales",
+    extra_label: str = "Lead quali",
     colors: dict,
     current_cost: float,
     fee_total: float,
@@ -174,7 +175,7 @@ def write_unified_breakeven_worksheet(
     minimum_cached: list[dict],
 ) -> xlsxwriter.worksheet.Worksheet:
     is_ecommerce = funnel_mode == "ecommerce"
-    row_labels = beu_row_labels_ecommerce() if is_ecommerce else beu_row_labels()
+    row_labels = beu_row_labels_ecommerce() if is_ecommerce else beu_row_labels(extra_label)
     order_volume = current_orders if is_ecommerce and current_orders else current_shipping
     be = workbook.add_worksheet("Breakeven 7M")
     be.set_tab_color(colors["teal"])

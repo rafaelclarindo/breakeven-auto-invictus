@@ -16,6 +16,32 @@ Documento de referência consolidado após o piloto **Soma Soluções** (ordem 1
 
 **Regra de ouro:** nunca inventar etapas e-commerce (shipping, payment, pedido) para inside sales. Nunca duplicar volumes (SQLs/SQLs, Vendas/Vendas) para “preencher” colunas do template.
 
+### Histórico acumulado — investimento vs funil
+
+| Série | Regra |
+|-------|-------|
+| **Investimento (mídia)** | **Todos** os meses do GP com linha 5 > 0 — inclui pré-funil (ex.: Mold Systems Jan–Mai/25 antes de MQL/SQL fechar) |
+| **Funil + faturamento (bench)** | Meses com funil completo + receita > 0 — mediana de taxas e volumes acumulados do funil |
+| **Não truncar** | Pelo LT da Strategy Review (col. H) salvo pedido explícito |
+
+O config separa `source_months` (investimento) de `benchmark_months` (funil). `lt_period` = janela de investimento; `funnel_lt_period` = janela do bench.
+
+### Funil 100% personalizado do Growth Pack
+
+**Nunca** copiar o funil de outro cliente (ex.: lead quali da Soma) se o GP lido não tiver essa etapa.
+
+| Cliente | Lead quali? | Funil breakeven | Perfil builder |
+|---------|-------------|-----------------|----------------|
+| **Soma** | Sim (GP linha 19) | Impressões → Cliques → Leads → **Lead quali** → MQL → SQL → Vendas | `build_soma_inside_sales_template_config.py` |
+| **Primeset** | **Não** | Impressões → Cliques → Leads → MQL → SQL → Vendas | `primeset` |
+| **Centro do Silicone** | **Não** | Impressões (L8) → Cliques (L10) → Leads → MQL → SQL → Vendas (L14) | `cdsi` |
+| **Mold Systems (MSYS)** | **Não** | Impressões (L7) → Cliques (L10) → Leads → MQL (L14) → SQL → Vendas (L16) — aba **6.0 consolidada** | `msys` |
+| Primeset linha 10 | Informativo (Ploomes) | **Fora do funil** — não setar `funnel_has_lead_quali: true` | — |
+
+Flag no config: `"funnel_has_lead_quali": true` **somente** quando existir etapa operacional de qualificação extra (entre Leads e MQL) **no GP daquele projeto**. O **nome** dessa etapa é configurável: `"extra_stage_label": "<nome do GP>"` (ex.: `"Agendamento"`, `"Reunião"`); default `"Lead quali"`. Vale para todos os rótulos do funil em todas as abas. Não é necessariamente "lead quali" — use o nome real do GP.
+
+Builder genérico: `build_growthpack_inside_sales_config.py --profile primeset|cdsi|msys` — validação exige `media, impressions, clicks, leads, mqls, sqls, sales, revenue`. Wrapper legado Primeset: `build_primeset_inside_sales_config.py`.
+
 ---
 
 ## 2. Funil inside sales — referência Soma
@@ -65,6 +91,18 @@ Ativar no config: `"funnel_has_lead_quali": true` (Soma). Sem essa flag, o gerad
 | **Breakeven mensal vs acumulado** | O breakeven **mensal** pode ocorrer antes (ex.: Mês 14); o **acumulado** (recuperar déficit histórico) atrasa porque a alavanca de mídia aumenta custos após meses positivos |
 | **Motor financeiro único (v17+)** | Aba Breakeven, Pessimista/Realista/Otimista e Resumo usam `breakeven_projection.py` — mesma lógica de MC, alavanca e acumulado |
 | **Realista = cenário mínimo** | `minimum_scenario.revenue` deve ser a mesma série do Realista no config (Growth Pack) |
+| **Receita projetada (cenários)** | Crescimento **composto a partir do último mês fechado** (`value *= 1 + growth`). **Proibido** piso no breakeven da competência no Mês 1 — isso dispara vendas de 18→195+ de forma irreal |
+| **Impressões projetadas (inside sales)** | **M1 cenários:** medianas de volume 3M (imp, cliques, leads, MQL, SQL, vendas) + taxas medianas; **M2+** cresce taxas (Premissas). **Referência separada:** Flow÷CPI mediano em `impression_traceability` — não alimenta col. G+. |
+| **Transparência impressões (v22+)** | Resumo Executivo: coluna Atual = **acum. funil**; coluna Mínimo = **M1 projetadas** (= Flow ÷ CPI mediano). Leitura estratégica + `impression_traceability` no config explicam o gap quando Flow ≠ mídia histórica. |
+| **Mídia projetada (análise GP)** | Quando `minimum_scenario.media` estiver no config, usar **investimento mês a mês da linha 5** (aba 6.0) — últimos 7 meses do GP como proxy da projeção. `monthly_media` (Flow) permanece só para **breakeven da competência** em Premissas F5 |
+| **Avanço das taxas por cenário** | Sobre **último mês fechado (ex.: Jun/26)**, rampa linear em 7 meses: **Pessimista +3%**, **Realista +7%**, **Otimista +10%** (cap 95%). **Não** puxar taxa para bench × 0,96 — isso derruba CTR de ~12% para ~4% |
+| **Onde aplicam as taxas** | **Todo o documento:** abas Pessimista/Realista/Otimista; **Premissas + Breakeven 7M + Funil Completo** usam o funil completo (5 etapas) com taxas do **Realista (+7%)** — mesma métrica de melhoria, não taxa combinada única em Leads→Vendas |
+| **Aba Mídia V4** | À direita de Otimista. Rampa **linear** mídia último mês GP → Flow (SR) em 7M + funil **Realista +7%**; receita = funil forward × ticket. Células amarelas: linha 4 e taxas 17–25 |
+| **Coluna B — Feito até o momento** | Volumes **acumulados** do histórico GP válido (`benchmark_months` / `source_months`), não snapshot só do último mês. Labels e valores na mesma linha (sem desalinhamento) |
+| **Coluna B vs C (taxas)** | **B** = taxas derivadas do funil **acumulado** (volumes somados ÷ volumes somados). **C (Breakeven competência)** = taxas do **último mês fechado** (Jun/26 = coluna F) — escala volumes para fechar o mês, **sem** assumir melhora de conversão |
+| **Col. D vs G+ — vendas meta ≠ realizado** | **D** = vendas **necessárias** para breakeven mensal (`(fee+mídia)÷margem ÷ ticket`) — **não** histórico. **G+ (Jul/26…)** = projeção forward. Realizado = **B** (acumulado) e **C** (último mês GP). Rótulo planilha: "Meta breakeven (vendas necessárias)". |
+| **CPS coluna C** | **Não** usar `mídia ÷ impressões` do funil reverso (explode impressões → CPS ~R$ 0,00). Usar **CPS referência** (= B34 / Jun/26) — custo operacional real |
+| **Recorrência TM (SR col. L)** | **Opt-in global (jun/2026):** se preenchida, faturamento do funil = vendas × TM mensal × meses. Sem recorrência → lógica legada (vendas × ticket GP). Ver `_context/decisions.md`. Ex. MSYS: 12 meses. |
 | **Textos personalizados (v17+)** | `breakeven_personalization.py` lê `monthly_media`, `monthly_fee`, `margin`, `context.diagnosis`, `context.main_risk` do config — **nunca** hardcode Dalpack |
 | **Cap de conversão** | Taxas limitadas a **95%** — raramente chegamos a 100% mesmo no otimista |
 | **Piso de CPS/CPM** | Custo por impressão não desce abaixo de **R$ 0,01** (ou 85% do CPS atual, o que for maior) |
@@ -77,7 +115,11 @@ Config opcional:
   "max_conversion_rate": 0.95,
   "min_cost_per_impression": 0.01,
   "media_lever_after_monthly_breakeven": true
-}
+},
+"ticket_monthly": 213.97,
+"tm_recurrence_months": 12,
+"tm_recurrence_raw": "12 meses",
+"projection_ticket": 2567.64
 ```
 
 ### Bench interno — Leads → Vendas (armadilha corrigida v12)
@@ -355,6 +397,89 @@ Antes de rodar o pipeline:
 2. Setar `"project_model": "Inside Sales"` no config.
 3. **Não** rodar relabel com mapeamentos que recriem etapas neutras.
 4. Replicar checklist §5 e salvar link em `qa.json` + `_context/status.md`.
+
+---
+
+## 11. Entregas recentes (jun/2026)
+
+### Centro do Silicone — v1 ✅
+
+| Item | Valor |
+|------|-------|
+| **Link** | https://docs.google.com/spreadsheets/d/1MKOrxsf70zUlU6Ijm3Lb-rgfWSQIP0QRfKeK3X9imZI/edit?usp=drivesdk |
+| Perfil GP | `cdsi` |
+| Histórico | Jan/25–Jun/26 (18 meses) |
+| Fee / mídia / margem | R$ 3.036,92 · R$ 5.500 · 30% |
+| Breakeven competência | R$ 28.456,40 |
+| Mídia V4 | R$ 3.765 → R$ 5.500 (~R$ 289/mês) + funil Realista +7% |
+| Sazonalidade | 1º semestre historicamente mais fraco (SR col. O) |
+
+```powershell
+python src/integrations/build_growthpack_inside_sales_config.py `
+  --project-folder projects/32-centro-do-silicone --profile cdsi `
+  --seasonal-context-file projects/32-centro-do-silicone/source/seasonal-context.txt
+```
+
+### Tabela de controle do funil — Premissas A18:D32 (v25+)
+
+> Disponível quando o config inclui `scenario_stage_monthly_advance` (builder `build_growthpack_inside_sales_config.py`).
+
+| Bloco | Células | Uso |
+|-------|---------|-----|
+| Evolução mensal % | B20:D24 | % composto mês a mês por etapa — Pessimista / Realista / Otimista |
+| Baseline M1 | B28:B32 | Taxas iniciais da projeção (editável) |
+| **Teto realista por etapa** | **C28:C32** | **Teto de saturação por etapa (v26)** — taxa não passa daqui |
+
+**Cascata automática:** abas Pessimista, Realista, Otimista, Mídia V4 (linhas 17–25), curva mensal Premissas (F14+) e Breakeven 7M (taxas 15–19).
+
+**Fórmula M2+ (v26 — saturação):** `=MIN(Premissas!$C$linha_teto, taxa_anterior*(1+Premissas!$col$linha_avanço))` — Mídia V4 usa col. C (Realista). O teto por etapa (C28:C32) substitui o cap único de 95% e impede que as taxas componham ao infinito por 54 meses (antes: Realista estourava a 21 mil vendas/mês). Ativa quando o config tem `stage_rate_ceilings`.
+
+**Base do teto (v26 — derivada dos dados):** `max(mediana dos ÚLTIMOS 3 MESES, baseline M1) × 1,1`, cap 95% (`stage_ceilings_from_history`). Mediana (não melhor mês) p/ não ancorar em outlier; últimos 3 meses p/ a **projeção** (o bench/acumulado/Dados Fonte seguem com TODO o contrato). Calculado por cliente — ex. MSYS (final, pós v26+): **3,24% / 1,46% / 30,18% / 55,0% / 49,21%** (Imp→Clique … SQL→Venda). Nota: o teto = `max(mediana, baseline)×1,1`; quando baseline = mediana (pós-fix mediana §4.3), teto = mediana×1,1 diretamente.
+
+Detalhes técnicos: `_context/decisions.md` §2026-06-22 Premissas; implementação em `generate_breakeven.py` (`PREM_FUNNEL_CONTROL_STAGES`).
+
+### Mold Systems (MSYS) — v26 ✅ (atual)
+
+> **Particularidade de projeto** — trail GP Mai/26, 18M investimento, perfil `msys`.  
+> **Recorrência 12M** é regra **global opt-in** (SR col. L); ver `_context/decisions.md`.
+> **v26+ (estado final):** funil satura por teto por etapa (Premissas C28:C32 = max(mediana 3M, baseline)×1,1); baseline M1 e tetos = **mediana** 3M; CPS projeção = **mediana 3M** (R$0,029, não acumulado R$0,054). Saturam ~46 vendas/mês. Breakeven 7M col. C alinhada ao funil Realista. Cor status linha 13 = condicional (vermelho = em recuperação, verde = breakeven). Breakeven: Otimista **Mar/28** · Realista **Abr/28** · Pessimista **Jun/28** · Mídia V4 **Abr/29**. Dependência circular (#REF!) corrigida.
+
+| Col | Conteúdo |
+|-----|----------|
+| **B** | Acumulado GP (caixa); funil linha 37 = LTV modelado |
+| **C** | Funil **Mai/26** (31 vendas) · faturamento LTV = GP × 12 |
+| **D** | Breakeven competência mensal (~26 vendas, D37 = D6) |
+| **E** | Total **7M** GP (Jul/26–Jan/27) |
+| **G+** | Projeção 54M · baseline **mediana** Mar–Mai/26 · taxas via Premissas · CPS = mediana 3M (`$G$34`) |
+
+**Link v25:** https://docs.google.com/spreadsheets/d/1u_JUUJ0awc8IUyycF1VSlj7OO_hO2yiVpojMtnzxTDg/edit?usp=drivesdk
+
+**Taxas default (%/mês composto por etapa):** Pessimista 3/2/1/1/0,5 · Realista 5/3/2/2/1 · Otimista 7/5/3/3/2 (Imp→Clique … SQL→Venda).
+
+### Mold Systems (MSYS) — v13 ✅ (histórico)
+
+**Link v13:** https://docs.google.com/spreadsheets/d/1Y0w6ABwf3ixcPSuhpwGaqAdSgkKRznZhZ9Xg0eYAvzc/edit?usp=drivesdk
+
+### Mold Systems (MSYS) — v6 ✅ (histórico)
+
+| Item | Valor |
+|------|-------|
+| **Link** | https://docs.google.com/spreadsheets/d/1c9abP826gKG7z-7MzvQGizF8UsguDiZX2JhHKMK53-s/edit?usp=drivesdk |
+| **Recorrência TM** | 12 meses — faturamento funil = vendas × TM × 12 |
+| Taxas projeção | **Mediana** 13 meses (Jun/25–Jun/26) + avanço cenário |
+| **Col. C** | **Baseline mediana 3M** (`baseline_funnel_volumes`) — ponto de partida M1; senão funil mês anterior GP |
+| **Col. D** | Breakeven competência (mídia Flow + funil forward mediana) |
+
+**v6:** mediana + funil último mês + vendas do funil forward (corrige ~2 vendas/mês).
+
+**v5:** recorrência TM (LTV dividindo faturamento — erro corrigido na v6).
+
+```powershell
+python src/integrations/build_growthpack_inside_sales_config.py `
+  --project-folder projects/43-msys-vistorias-ltda --profile msys
+```
+
+### Mold Systems (MSYS) — v2 ✅ (histórico)
 
 ---
 

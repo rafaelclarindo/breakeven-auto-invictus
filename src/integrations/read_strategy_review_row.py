@@ -65,6 +65,9 @@ def main() -> None:
     for row in range(2, ws.max_row + 1):
         project_cell = ws[f"B{row}"]
         if needle in norm(project_cell.value) or norm(project_cell.value) in needle:
+            # Layout Strategy Review (conferido 2026-06-24):
+            # B=Projeto · H=LT · I=Fee · J=Mídia · K=Margem · L=MRR ·
+            # M=Break-even antigo · N=GrowthPack · O=Retrospectiva · P=Sazonal.
             payload = {
                 "row": row,
                 "project": cell_payload(project_cell),
@@ -72,9 +75,12 @@ def main() -> None:
                 "fee_i": cell_payload(ws[f"I{row}"]),
                 "media_j": cell_payload(ws[f"J{row}"]),
                 "margin_k": cell_payload(ws[f"K{row}"]),
-                "old_breakeven_l": cell_payload(ws[f"L{row}"]),
-                "growthpack_m": cell_payload(ws[f"M{row}"]),
-                "seasonal_context_o": cell_payload(ws[f"O{row}"]),
+                "mrr_l": cell_payload(ws[f"L{row}"]),
+                "tm_recurrence_l": cell_payload(ws[f"L{row}"]),
+                "old_breakeven_m": cell_payload(ws[f"M{row}"]),
+                "growthpack_n": cell_payload(ws[f"N{row}"]),
+                "retrospectiva_o": cell_payload(ws[f"O{row}"]),
+                "seasonal_context_p": cell_payload(ws[f"P{row}"]),
             }
             print(json.dumps(payload, ensure_ascii=False, indent=2))
             return

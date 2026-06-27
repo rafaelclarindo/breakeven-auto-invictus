@@ -1,6 +1,6 @@
 # Índice — Breakeven Auto
 
-**Atualizado:** 2026-06-21
+**Atualizado:** 2026-06-24
 **Manifest:** `assets\strategy_review_manifest_2026-06-21.json`
 
 ## Resumo
@@ -15,10 +15,10 @@
 | Ordem | Projeto | Status | Pasta | Motivo principal |
 |---:|---|---|---|---|
 | 1 | MANCHESTER DISTRIBUIDORA DE FERRO E ACO LTDA | `ready` | `projects\01-manchester-distribuidora-de-ferro-e-aco-ltda` | Insumos Flow mínimos disponíveis. |
-| 2 | BINARIO TECNOLOGIA DISTRIBUIDORA LTDA | `ready` | `projects\02-binario-tecnologia-distribuidora-ltda` | Insumos Flow mínimos disponíveis. |
-| 3 | Promax Supertroca – Yanmar Agritech | `needs-review` | `projects\03-promax-supertroca-yanmar-agritech` | Margem de contribuição ausente ou zerada no Flow. |
+| 2 | BINARIO TECNOLOGIA DISTRIBUIDORA LTDA | `delivered` | `projects\02-binario-tecnologia-distribuidora-ltda` | Breakeven Marketplace — perfil `binario`. |
+| 3 | Promax Supertroca – Yanmar Agritech | `delivered` | `projects\03-promax-supertroca-yanmar-agritech` | Breakeven publicado — perfil `promax`. |
 | 4 | SIGO ERP(DUO3 SOLUCOES EM TECNOLOGIA DA INFORMACAO LTDA)(DUO3 SOLUCOES EM TECNOLOGIA DA INFORMACAO LTDA) | `ready` | `projects\04-sigo-erp-duo3-solucoes-em-tecnologia-da-informacao-ltda-duo3-solucoes-em` | Insumos Flow mínimos disponíveis. |
-| 5 | SA GONDOLAS DE ACO LTDA | `ready` | `projects\05-sa-gondolas-de-aco-ltda` | Insumos Flow mínimos disponíveis. |
+| 5 | SA GONDOLAS DE ACO LTDA | `delivered` | `projects\05-sa-gondolas-de-aco-ltda` | Breakeven publicado — perfil `gondolas`. |
 | 6 | O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA(O3NT PRODUTOS DE HIGIENE E BEM ESTAR LTDA - 10.782.491/0001-23) | `ready` | `projects\06-o3nt-produtos-de-higiene-e-bem-estar-ltda-o3nt-produtos-de-higiene-e-bem` | Insumos Flow mínimos disponíveis. |
 | 7 | VISOFLEX PORTAS E PORTOES LTDA | `ready` | `projects\07-visoflex-portas-e-portoes-ltda` | Insumos Flow mínimos disponíveis. |
 | 8 | ALUMTECH COMERCIO LTDA | `ready` | `projects\08-alumtech-comercio-ltda` | Insumos Flow mínimos disponíveis. |
@@ -27,7 +27,7 @@
 | 11 | BUBLU | `ready` | `projects\11-bublu` | Insumos Flow mínimos disponíveis. |
 | 12 | DYDYO | `needs-review` | `projects\12-dydyo` | Margem de contribuição ausente ou zerada no Flow. |
 | 13 | LF2 - INDUSTRIA E COMERCIO LTDA | `ready` | `projects\13-lf2-industria-e-comercio-ltda` | Insumos Flow mínimos disponíveis. |
-| 14 | AUDDAS INTERMEDIACAO DE NEGOCIOS LTDA | `needs-review` | `projects\14-auddas-intermediacao-de-negocios-ltda` | Margem de contribuição ausente ou zerada no Flow. |
+| 14 | AUDDAS INTERMEDIACAO DE NEGOCIOS LTDA | `delivered` | `projects\14-auddas-intermediacao-de-negocios-ltda` | Breakeven entregue 2026-06-22 — perfil `auddas` |
 | 15 | Aquatro Suprimentos | `ready` | `projects\15-aquatro-suprimentos` | Insumos Flow mínimos disponíveis. |
 | 16 | ML PARTICIPACOES LTDA | `ready` | `projects\16-ml-participacoes-ltda` | Insumos Flow mínimos disponíveis. |
 | 17 | SOMA SOLUCOES FINANCEIRAS LTDA | `ready` | `projects\17-soma-solucoes-financeiras-ltda` | Insumos Flow mínimos disponíveis. |
@@ -44,7 +44,7 @@
 | 28 | GREEN WAY INSULATION(GREEN WAY INSULATION) | `ready` | `projects\28-green-way-insulation-green-way-insulation` | Insumos Flow mínimos disponíveis. |
 | 29 | V.L.O TEXTIL INDUSTRIA E COMERCIO IMPORTACAO E EXPORTACAO LTDA (V.L.O TEXTIL INDUSTRIA E COMERCIO IMPORTACAO E EXPORTACAO LTDA) | `ready` | `projects\29-v-l-o-textil-industria-e-comercio-importacao-e-exportacao-ltda-v-l-o-tex` | Insumos Flow mínimos disponíveis. |
 | 30 | ELEVATE INCORPORADORA E CONSTRUTORA LTDA - Executar - 5c4ea8dc-633f-49c3-96d8-c158a68d95ee | `ready` | `projects\30-elevate-incorporadora-e-construtora-ltda-executar-5c4ea8dc-633f-49c3-96d` | Insumos Flow mínimos disponíveis. |
-| 31 | SIMPLE EDUCATION(SIMPLE EDUCATION EDITORA LTDA)(SIMPLE EDUCATION EDITORA LTDA) | `ready` | `projects\31-simple-education-simple-education-editora-ltda-simple-education-editora` | Insumos Flow mínimos disponíveis. |
+| 31 | SIMPLE EDUCATION(SIMPLE EDUCATION EDITORA LTDA)(SIMPLE EDUCATION EDITORA LTDA) | `delivered` | `projects\31-simple-education-simple-education-editora-ltda-simple-education-editora` | Breakeven entregue 2026-06-22 — perfil `simpleeducation` |
 | 32 | CENTRO DO SILICONE | `ready` | `projects\32-centro-do-silicone` | Insumos Flow mínimos disponíveis. |
 | 33 | BNU TECNOLOGIA EM INSTALACOES ELETRICAS E SEGURANCA LTDA (Global Sonic) | `ready` | `projects\33-bnu-tecnologia-em-instalacoes-eletricas-e-seguranca-ltda-global-sonic` | Insumos Flow mínimos disponíveis. |
 | 34 | CH BILHARES - GP TOYS | `ready` | `projects\34-ch-bilhares-gp-toys` | Insumos Flow mínimos disponíveis. |
@@ -59,15 +59,15 @@
 | 43 | MSYS VISTORIAS LTDA | `ready` | `projects\43-msys-vistorias-ltda` | Insumos Flow mínimos disponíveis. |
 | 44 | FABIO LUCHESI (Primeset) | `ready` | `projects\44-fabio-luchesi-primeset` | Insumos Flow mínimos disponíveis. |
 | 45 | VCA MUSIC LTDA | `needs-review` | `projects\45-vca-music-ltda` | Margem de contribuição ausente ou zerada no Flow. |
-| 46 | AMBIENT AIR COMERCIAL DE ELETRODOMESTICOS LTDA | `ready` | `projects\46-ambient-air-comercial-de-eletrodomesticos-ltda` | Insumos Flow mínimos disponíveis. |
-| 47 | Excel Group | `blocked` | `projects\47-excel-group` | Sem GrowthPack Atualizado no Flow. |
-| 48 | NOVO MILENIO UNIFORMES LTDA(NOVO MILENIO UNIFORMES LTDA - 05.335.577/0001-78) | `ready` | `projects\48-novo-milenio-uniformes-ltda-novo-milenio-uniformes-ltda-05-335-577-0001` | Insumos Flow mínimos disponíveis. |
+| 46 | AMBIENT AIR COMERCIAL DE ELETRODOMESTICOS LTDA | `delivered` | `projects\46-ambient-air-comercial-de-eletrodomesticos-ltda` | Breakeven publicado — perfil `ambientair`. |
+| 47 | Excel Group | `delivered` | `projects\47-excel-group` | Breakeven publicado — perfil `excelgroup`. |
+| 48 | NOVO MILENIO UNIFORMES LTDA | `delivered` | `projects\48-novo-milenio-uniformes-ltda-novo-milenio-uniformes-ltda-05-335-577-0001` | Breakeven publicado — perfil `novomilenio`. |
 | 49 | FLORESTEC INDUSTRIA DE EQUIPAMENTOS FLORESTAIS LTDA | `needs-review` | `projects\49-florestec-industria-de-equipamentos-florestais-ltda` | Margem de contribuição ausente ou zerada no Flow. |
 | 50 | VALMAGAL - ENGENHARIA E CONSTRUÇÃO LDA(VALMAGAL - ENGENHARIA E CONSTRUÇÃO LDA) | `blocked` | `projects\50-valmagal-engenharia-e-construcao-lda-valmagal-engenharia-e-construcao-ld` | Sem GrowthPack Atualizado no Flow. |
 | 51 | WF ENGENHARIA CONSTRUTORA E INCORPORADORA (W F CONSTRUTORA E INCORPORADORA LTDA) | `ready` | `projects\51-wf-engenharia-construtora-e-incorporadora-w-f-construtora-e-incorporador` | Insumos Flow mínimos disponíveis. |
-| 52 | ONCO IMPORT ASSESSORIA E CONSULTORIA LTDA - Executar - 7f35366e-71bb-4277-a0de-1577e92d1e0b | `blocked` | `projects\52-onco-import-assessoria-e-consultoria-ltda-executar-7f35366e-71bb-4277-a0` | Sem GrowthPack Atualizado no Flow. |
-| 53 | PORTICO ARQUITETURA E CONSTRUCOES LTDA | `needs-review` | `projects\53-portico-arquitetura-e-construcoes-ltda` | Margem de contribuição ausente ou zerada no Flow. |
-| 54 | IGA BLUMENAU(KAIROS GRI INSTITUTO DE GASTRONOMIA E CULINARIA LTDA )(KAIROS GRI INSTITUTO DE GASTRONOMIA E CULINARIA LTDA) | `ready` | `projects\54-iga-blumenau-kairos-gri-instituto-de-gastronomia-e-culinaria-ltda-kairos` | Insumos Flow mínimos disponíveis. |
+| 52 | ONCO IMPORT ASSESSORIA E CONSULTORIA LTDA - Executar - 7f35366e-71bb-4277-a0de-1577e92d1e0b | `delivered` | `projects\52-onco-import-assessoria-e-consultoria-ltda-executar-7f35366e-71bb-4277-a0` | Breakeven publicado — perfil `oncimport`. |
+| 53 | PORTICO ARQUITETURA E CONSTRUCOES LTDA | `delivered` | `projects\53-portico-arquitetura-e-construcoes-ltda` | Breakeven publicado — perfil `portico`. |
+| 54 | IGA BLUMENAU(KAIROS GRI INSTITUTO DE GASTRONOMIA E CULINARIA LTDA )(KAIROS GRI INSTITUTO DE GASTRONOMIA E CULINARIA LTDA) | `delivered` | `projects\54-iga-blumenau-kairos-gri-instituto-de-gastronomia-e-culinaria-ltda-kairos` | Breakeven publicado — perfil `igablumenau`. |
 | 55 | BERRYGOOD COMERCIO, IMPORTACAO E DISTRIBUICAO DE FRUTAS LTDA. | `needs-review` | `projects\55-berrygood-comercio-importacao-e-distribuicao-de-frutas-ltda` | Margem de contribuição ausente ou zerada no Flow. |
 | 56 | AXSIS CONSULTORIA EM SUPPLY CHAIN LTDA. | `blocked` | `projects\56-axsis-consultoria-em-supply-chain-ltda` | Sem GrowthPack Atualizado no Flow. |
 | 57 | DERMOCOSMETIC COMERCIO DE PRODUTOS DE BELEZA LTDA | `ready` | `projects\57-dermocosmetic-comercio-de-produtos-de-beleza-ltda` | Insumos Flow mínimos disponíveis. |
@@ -75,8 +75,8 @@
 | 59 | PLAY FIBRA SERVICOS DE INTERNET LTDA | `ready` | `projects\59-play-fibra-servicos-de-internet-ltda` | Insumos Flow mínimos disponíveis. |
 | 60 | PORTIER COSMETICOS LTDA | `ready` | `projects\60-portier-cosmeticos-ltda` | Insumos Flow mínimos disponíveis. |
 | 61 | FTM TRANSPORTES LTDA | `ready` | `projects\61-ftm-transportes-ltda` | Insumos Flow mínimos disponíveis. |
-| 62 | FIBRALINK SERVICOS DE TECNOLOGIA DA INFORMACAO LTDA | `blocked` | `projects\62-fibralink-servicos-de-tecnologia-da-informacao-ltda` | Sem GrowthPack Atualizado no Flow. |
-| 63 | SOTOBI MAQUINAS E ACESSORIOS PARA FABRICAS DE BLOCOS LTDA | `ready` | `projects\63-sotobi-maquinas-e-acessorios-para-fabricas-de-blocos-ltda` | Insumos Flow mínimos disponíveis. |
+| 62 | FIBRALINK SERVICOS DE TECNOLOGIA DA INFORMACAO LTDA | `delivered` | `projects\62-fibralink-servicos-de-tecnologia-da-informacao-ltda` | Breakeven publicado — perfil `fibralink`. |
+| 63 | SOTOBI MAQUINAS E ACESSORIOS PARA FABRICAS DE BLOCOS LTDA | `delivered` | `projects\63-sotobi-maquinas-e-acessorios-para-fabricas-de-blocos-ltda` | Breakeven entregue 2026-06-22 — perfil `sotobi` |
 | 64 | ACCENTURE PARTICIPACOES LTDA(ACCENTURE PARTICIPACOES LTDA - 54.271.277/0001-88) | `needs-review` | `projects\64-accenture-participacoes-ltda-accenture-participacoes-ltda-54-271-277-000` | Margem de contribuição ausente ou zerada no Flow. |
 | 65 | M. RESENDE & CARVALHO EQUIPAMENTOS AGROINDUSTRIAIS LTDA | `blocked` | `projects\65-m-resende-carvalho-equipamentos-agroindustriais-ltda` | Sem GrowthPack Atualizado no Flow. |
 | 66 | DPONET DESENVOLVIMENTO DE SISTEMAS E CONSULTORIA EM SEGURANCA DA INFORMACAO LTDA. | `blocked` | `projects\66-dponet-desenvolvimento-de-sistemas-e-consultoria-em-seguranca-da-informa` | Sem GrowthPack Atualizado no Flow. |

@@ -1,6 +1,6 @@
 {
   "source_manifest": "assets\\strategy_review_manifest_2026-06-21.json",
-  "generated_at": "2026-06-21",
+  "generated_at": "2026-06-24",
   "project_count": 74,
   "ready": 49,
   "needs_review": 11,
@@ -23,9 +23,9 @@
       "order": 2,
       "name": "BINARIO TECNOLOGIA DISTRIBUIDORA LTDA",
       "slug": "02-binario-tecnologia-distribuidora-ltda",
-      "status": "ready",
+      "status": "delivered",
       "reasons": [
-        "Insumos Flow mínimos disponíveis."
+        "Breakeven Marketplace gerado e publicado no Google Sheets."
       ],
       "folder": "projects\\02-binario-tecnologia-distribuidora-ltda",
       "has_growthpack_link": true,
@@ -36,9 +36,9 @@
       "order": 3,
       "name": "Promax Supertroca – Yanmar Agritech",
       "slug": "03-promax-supertroca-yanmar-agritech",
-      "status": "needs-review",
+      "status": "delivered",
       "reasons": [
-        "Margem de contribuição ausente ou zerada no Flow."
+        "Breakeven gerado e publicado no Google Sheets."
       ],
       "folder": "projects\\03-promax-supertroca-yanmar-agritech",
       "has_growthpack_link": true,
@@ -62,9 +62,9 @@
       "order": 5,
       "name": "SA GONDOLAS DE ACO LTDA",
       "slug": "05-sa-gondolas-de-aco-ltda",
-      "status": "ready",
+      "status": "delivered",
       "reasons": [
-        "Insumos Flow mínimos disponíveis."
+        "Breakeven gerado e publicado no Google Sheets."
       ],
       "folder": "projects\\05-sa-gondolas-de-aco-ltda",
       "has_growthpack_link": true,
@@ -179,10 +179,8 @@
       "order": 14,
       "name": "AUDDAS INTERMEDIACAO DE NEGOCIOS LTDA",
       "slug": "14-auddas-intermediacao-de-negocios-ltda",
-      "status": "needs-review",
-      "reasons": [
-        "Margem de contribuição ausente ou zerada no Flow."
-      ],
+      "status": "delivered",
+      "reasons": [],
       "folder": "projects\\14-auddas-intermediacao-de-negocios-ltda",
       "has_growthpack_link": true,
       "document_id": "cch1s6ev9mc6nnh0j25jl6sn",
@@ -400,10 +398,8 @@
       "order": 31,
       "name": "SIMPLE EDUCATION(SIMPLE EDUCATION EDITORA LTDA)(SIMPLE EDUCATION EDITORA LTDA)",
       "slug": "31-simple-education-simple-education-editora-ltda-simple-education-editora",
-      "status": "ready",
-      "reasons": [
-        "Insumos Flow mínimos disponíveis."
-      ],
+      "status": "delivered",
+      "reasons": [],
       "folder": "projects\\31-simple-education-simple-education-editora-ltda-simple-education-editora",
       "has_growthpack_link": true,
       "document_id": "vmtchurt82y2u0ekgi1ie8yx",
@@ -595,9 +591,9 @@
       "order": 46,
       "name": "AMBIENT AIR COMERCIAL DE ELETRODOMESTICOS LTDA",
       "slug": "46-ambient-air-comercial-de-eletrodomesticos-ltda",
-      "status": "ready",
+      "status": "delivered",
       "reasons": [
-        "Insumos Flow mínimos disponíveis."
+        "Breakeven gerado e publicado no Google Sheets."
       ],
       "folder": "projects\\46-ambient-air-comercial-de-eletrodomesticos-ltda",
       "has_growthpack_link": true,
@@ -608,10 +604,9 @@
       "order": 47,
       "name": "Excel Group",
       "slug": "47-excel-group",
-      "status": "blocked",
+      "status": "delivered",
       "reasons": [
-        "Sem GrowthPack Atualizado no Flow.",
-        "Margem de contribuição ausente ou zerada no Flow."
+        "Breakeven gerado e publicado no Google Sheets."
       ],
       "folder": "projects\\47-excel-group",
       "has_growthpack_link": false,
@@ -622,9 +617,9 @@
       "order": 48,
       "name": "NOVO MILENIO UNIFORMES LTDA(NOVO MILENIO UNIFORMES LTDA - 05.335.577/0001-78)",
       "slug": "48-novo-milenio-uniformes-ltda-novo-milenio-uniformes-ltda-05-335-577-0001",
-      "status": "ready",
+      "status": "delivered",
       "reasons": [
-        "Insumos Flow mínimos disponíveis."
+        "Breakeven gerado e publicado no Google Sheets."
       ],
       "folder": "projects\\48-novo-milenio-uniformes-ltda-novo-milenio-uniformes-ltda-05-335-577-0001",
       "has_growthpack_link": true,
@@ -675,13 +670,12 @@
       "order": 52,
       "name": "ONCO IMPORT ASSESSORIA E CONSULTORIA LTDA - Executar - 7f35366e-71bb-4277-a0de-1577e92d1e0b",
       "slug": "52-onco-import-assessoria-e-consultoria-ltda-executar-7f35366e-71bb-4277-a0",
-      "status": "blocked",
+      "status": "delivered",
       "reasons": [
-        "Sem GrowthPack Atualizado no Flow.",
-        "Margem de contribuição ausente ou zerada no Flow."
+        "Breakeven gerado e publicado no Google Sheets."
       ],
       "folder": "projects\\52-onco-import-assessoria-e-consultoria-ltda-executar-7f35366e-71bb-4277-a0",
-      "has_growthpack_link": false,
+      "has_growthpack_link": true,
       "document_id": "xgjdx9mrn4wpv2kybtqj5gbo",
       "coordinator": "melissa.pessoa"
     },
@@ -689,9 +683,9 @@
       "order": 53,
       "name": "PORTICO ARQUITETURA E CONSTRUCOES LTDA",
       "slug": "53-portico-arquitetura-e-construcoes-ltda",
-      "status": "needs-review",
+      "status": "delivered",
       "reasons": [
-        "Margem de contribuição ausente ou zerada no Flow."
+        "Breakeven gerado e publicado no Google Sheets."
       ],
       "folder": "projects\\53-portico-arquitetura-e-construcoes-ltda",
       "has_growthpack_link": true,
@@ -702,9 +696,9 @@
       "order": 54,
       "name": "IGA BLUMENAU(KAIROS GRI INSTITUTO DE GASTRONOMIA E CULINARIA LTDA )(KAIROS GRI INSTITUTO DE GASTRONOMIA E CULINARIA LTDA)",
       "slug": "54-iga-blumenau-kairos-gri-instituto-de-gastronomia-e-culinaria-ltda-kairos",
-      "status": "ready",
+      "status": "delivered",
       "reasons": [
-        "Insumos Flow mínimos disponíveis."
+        "Breakeven gerado e publicado no Google Sheets."
       ],
       "folder": "projects\\54-iga-blumenau-kairos-gri-instituto-de-gastronomia-e-culinaria-ltda-kairos",
       "has_growthpack_link": true,
@@ -807,12 +801,12 @@
       "order": 62,
       "name": "FIBRALINK SERVICOS DE TECNOLOGIA DA INFORMACAO LTDA",
       "slug": "62-fibralink-servicos-de-tecnologia-da-informacao-ltda",
-      "status": "blocked",
+      "status": "delivered",
       "reasons": [
-        "Sem GrowthPack Atualizado no Flow."
+        "Breakeven gerado e publicado no Google Sheets."
       ],
       "folder": "projects\\62-fibralink-servicos-de-tecnologia-da-informacao-ltda",
-      "has_growthpack_link": false,
+      "has_growthpack_link": true,
       "document_id": "tfd2z1aem4ceyst11b18insv",
       "coordinator": "thaina.gomes"
     },
@@ -820,10 +814,8 @@
       "order": 63,
       "name": "SOTOBI MAQUINAS E ACESSORIOS PARA FABRICAS DE BLOCOS LTDA",
       "slug": "63-sotobi-maquinas-e-acessorios-para-fabricas-de-blocos-ltda",
-      "status": "ready",
-      "reasons": [
-        "Insumos Flow mínimos disponíveis."
-      ],
+      "status": "delivered",
+      "reasons": [],
       "folder": "projects\\63-sotobi-maquinas-e-acessorios-para-fabricas-de-blocos-ltda",
       "has_growthpack_link": true,
       "document_id": "xbom9n4qhvzdorhpvh7v7suq",

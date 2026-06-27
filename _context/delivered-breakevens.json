@@ -1,0 +1,234 @@
+{
+  "updated_at": "2026-06-22",
+  "reference_deliveries": [
+    {
+      "client": "MSYS VISTORIAS LTDA",
+      "strategy_review_row": 43,
+      "folder": "projects/43-msys-vistorias-ltda",
+      "profile": "msys",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1u_JUUJ0awc8IUyycF1VSlj7OO_hO2yiVpojMtnzxTDg/edit?usp=drivesdk"
+    },
+    {
+      "client": "VISOFLEX PORTAS E PORTOES LTDA",
+      "strategy_review_row": 8,
+      "folder": "projects/07-visoflex-portas-e-portoes-ltda",
+      "profile": "visoflex",
+      "contract_from_label": "Jan/26",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1b30Tabrr5hAtcoTj5vcqDzyKVXgaUug_lGP70t7nIF4/edit?usp=drivesdk",
+      "notes": "Sem recorrência TM (SR col. L vazia); LT 5 meses (col. H). Ticket sem multiplicador."
+    },
+    {
+      "client": "ESCRITORIO VICENTINI & ANDRADE (MONETIZAÇÃO)",
+      "strategy_review_row": 5,
+      "folder": "projects/23-escritorio-vicentini-andrade-sociedade-de-advogados-s-s-18-213-376-0001",
+      "profile": "vicentini",
+      "contract_from_label": "Dez/25",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1UauGd7XtyEbL9klcg9tjCM9e2ZG4TcVtaMWZegA-4Rk/edit?usp=drivesdk",
+      "notes": "Pré-receita (0 vendas GP) — ticket estimado para LTV; sql_sale fallback 15%"
+    },
+    {
+      "client": "CONSTRUTORA E INCORPORADORA VILELA CAMPOS LTDA.",
+      "strategy_review_row": 1,
+      "folder": "projects/20-construtora-e-incorporadora-vilela-campos-ltda",
+      "profile": "cdsi",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1nD1eyZEmHuiAXOoP1IOS7yT1FZxN8MULHa7pbreKe2Q/edit?usp=drivesdk",
+      "notes": "GP com receita inconsistente (linha 17). Sem recorrência TM (SR col. L vazia); LT 22 meses (col. H)."
+    },
+    {
+      "client": "SIGO ERP (DUO3)",
+      "strategy_review_row": 4,
+      "folder": "projects/04-sigo-erp-duo3-solucoes-em-tecnologia-da-informacao-ltda-duo3-solucoes-em",
+      "profile": "sigo",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1RJ3F5qlKiUraMGjCd72_DwPU_Jntiaivbjx1chbwoHs/edit?usp=drivesdk",
+      "notes": "Sem recorrência TM (SR col. L vazia); LT 23 meses (col. H)."
+    },
+    {
+      "client": "MALBORK CORRETORA DE SEGUROS LTDA",
+      "strategy_review_row": 6,
+      "folder": "projects/24-malbork-corretora-de-seguros-ltda",
+      "profile": "malbork",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/18TL7jRxb54rJPbNoHZBJH3aLRj2RxWZKUpMxSboNQvQ/edit?usp=drivesdk",
+      "notes": "GP SR 1UypffQrX2 — Jan/25–Jun/26; sem recorrência TM (SR col. L vazia); LT 30 meses (col. H); ticket L6"
+    },
+    {
+      "client": "ALUMTECH COMERCIO LTDA",
+      "strategy_review_row": 8,
+      "folder": "projects/08-alumtech-comercio-ltda",
+      "profile": "alumtech",
+      "pipeline": "e-commerce",
+      "project_model": "E-commerce D2C",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1jqA0IEqzPtrQ11KqMvgZ9tuhLgOx1XH_N1JLCwkHYGY/edit?usp=drivesdk",
+      "notes": "GP marketplace Oxxy Motos — perfil alumtech (EC builder); MRR Sem recorrência; LT 14; Jun/25 excluído (receita=0)"
+    },
+    {
+      "client": "SUPRIMEDICO",
+      "strategy_review_row": 10,
+      "folder": "projects/10-suprimedico-comercio-de-artigos-e-equipamentos-medicos-e-hospitalares-lt",
+      "profile": "suprimedico",
+      "contract_from_label": "Nov/25",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1LuiKlibqtCYgj23VONCblUOeuQhHJWIXGciBiRnzs6U/edit?usp=drivesdk",
+      "notes": "Funil IS GP L61-62/82-87; sem MRR; LT 9 meses; histórico Nov/25–Jun/26"
+    },
+    {
+      "client": "CENTRO AUDITIVO MACAE",
+      "strategy_review_row": 12,
+      "folder": "projects/27-centro-auditivo-macae",
+      "profile": "centroauditivo",
+      "contract_from_label": "Mai/26",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1X-6vQ35ajNhp4bZghQLPdYK6i65mocbpBAusluuniXQ/edit?usp=drivesdk",
+      "notes": "GP IS L6-15 (Fee L5); Abr–Jun/26; resultado hist −R$ 9.728,71; sem MRR; LT 2"
+    },
+    {
+      "client": "INSTITUTO PANAMERICANO DE OFTALMOLOGIA LTDA (IPO)",
+      "strategy_review_row": 4,
+      "folder": "projects/22-instituto-panamericano-de-oftalmologia-ltda-instituto-panamericano-de-of",
+      "profile": "ipo",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1Lq5t_uOOGf6R70no1ENC3WADFtteNiJvJGAVDhIv3Z0/edit?usp=drivesdk",
+      "notes": "GP Acomp. Mensal multi-plataforma; receita GP vazia → ticket est. R$ 6k; Mar–Mai/26; resultado −R$ 12.698,99; sem MRR; LT 3"
+    },
+    {
+      "client": "BMB TECIDOS LTDA",
+      "strategy_review_row": 11,
+      "folder": "projects/26-bmb-tecidos-ltda",
+      "profile": "bmb",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1aTuMBdcRwd-wuXiEwpukgfTb_IGX883FDprbFoLNiVE/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1wfXLGgd6xB2kqypN1-Hy7YnJs4zXk51ZMIIf7DM3OKs/edit",
+      "notes": "GP 6.0 col. A; Jan–Mai/26; 1 venda Abr R$ 19.774; resultado −R$ 39.674,18; margem 12%; sem MRR; LT 6"
+    },
+    {
+      "client": "GREEN WAY INSULATION",
+      "strategy_review_row": 20,
+      "folder": "projects/28-green-way-insulation-green-way-insulation",
+      "profile": "greenway",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1RaNJxd90Xf07s98ClsMb-vQqfU813QO5dOGmZ0QFw0g/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1XzuDDJFnMEPuhlw-gdtC-2mAWq_28ZqKlMu8FZhCH7g/edit?gid=617612824",
+      "notes": "GP 2.2 Acomp. Mensal; Nov/25–Mai/26; 15 vendas R$ 149.345; resultado −R$ 82.930,58; margem 23%; sem MRR; LT 13"
+    },
+    {
+      "client": "DALPACK COMERCIO ELETRONICO LTDA",
+      "strategy_review_row": 9,
+      "folder": "projects/09-dalpack-comercio-eletronico-ltda-dalpack-comercio-eletronico-ltda-42-458",
+      "profile": "dalpack",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1FHaGvEFmE_P2HlNS3AQktEm9aXfxyiGZMsC8ov6FoKM/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1BMiPw9zi1xqMCA7Yw2qNh2Fd1bsok0WNhpRi2TRl2yw/edit?gid=1441643440",
+      "notes": "E-commerce D2C; Jan/25–Jun/26; 100 vendas baseline 3M; resultado −R$ 28.994,58; margem 30%; sem MRR; LT 8"
+    },
+    {
+      "client": "AUDDAS INTERMEDIACAO DE NEGOCIOS LTDA",
+      "strategy_review_row": 14,
+      "folder": "projects/14-auddas-intermediacao-de-negocios-ltda",
+      "profile": "auddas",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1OmVE2IHDVIqu9s8C7QcQciJ5EZ8u__l0e69QCdLaVI4/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/15ityP2CKX7VzJeIDtKtsrA3BPkDUYCE45PeBKETvjLQ/edit?gid=1883619073",
+      "notes": "IS split GP 6.0 (SAL=SQL) + Tabela mensual IS; Dez/24–Mai/26; faturamento R$ 0 no período; margem 30%; sem MRR; LT 18; BEP competência R$ 177k"
+    },
+    {
+      "client": "SIMPLE EDUCATION EDITORA LTDA",
+      "strategy_review_row": 31,
+      "folder": "projects/31-simple-education-simple-education-editora-ltda-simple-education-editora",
+      "profile": "simpleeducation",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1CFpM3BymqdOYgXOET6A1p430UigUZwhlLNeibQ0Ia9M/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1pBSq1kVNgqzZd0eOe-gtwIWO4LTSw4drhJZWBOchP50/edit?gid=617612824",
+      "notes": "GP 2.2 Acomp. Mensal SQL L10; Jan/24–Abr/26; faturamento R$ 0; margem 60%; BEP R$ 29k; SQL inferido de MQL quando vazio"
+    },
+    {
+      "client": "SOTOBI MAQUINAS E ACESSORIOS PARA FABRICAS DE BLOCOS LTDA",
+      "strategy_review_row": 63,
+      "folder": "projects/63-sotobi-maquinas-e-acessorios-para-fabricas-de-blocos-ltda",
+      "profile": "sotobi",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1I1b67ZGMGUvnn2ID83Atg509H-ui7g1zVN3fIuFnAao/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1GDiRcey6G4kmx0ybSoIhVJSMRx-LGM5Ae7LepLNMoB0/edit?gid=617612824",
+      "notes": "GP 6.0 Acomp. Mensal ticket L6; Jan/24–Mai/26; fat R$ 9,25M; SQL→Venda 23,5% mediana 3M; margem 30%; above BEP"
+    },
+    {
+      "client": "AMBIENT AIR COMERCIAL DE ELETRODOMESTICOS LTDA",
+      "strategy_review_row": 46,
+      "folder": "projects/46-ambient-air-comercial-de-eletrodomesticos-ltda",
+      "profile": "ambientair",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1ZuTe8eagH_iFcRu1v1WJTyjXtfbAgKf72IVDkdV7FSY/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1IKgnPGaU9ErSXWKlg1GhEgUNMlANyC8jWZ6rmFxX__4/edit?gid=250373515",
+      "notes": "GP 6.0 Acomp. Mensal; baseline 3M só meses com vendas (Dez–Fev/26); SQL→Venda 28,6%; BEP R$ 45k"
+    },
+    {
+      "client": "Excel Group",
+      "strategy_review_row": 47,
+      "folder": "projects/47-excel-group",
+      "profile": "excelgroup",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/11EIYLTPCDSQM8y2amqecQ28No0A4Z2laOWBeUkGLS0Q/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/16dFvXd4ERuXyXBK5fZImNR35IC6CYD0r68fOcuixVvE/edit?gid=250373515",
+      "notes": "GP 2.2 layout estendido Invest L8; Fev–Mai/26; fat R$ 0; fee GP R$ 1.650; margem 30%; BEP R$ 8.833"
+    },
+    {
+      "client": "NOVO MILENIO UNIFORMES LTDA",
+      "strategy_review_row": 48,
+      "folder": "projects/48-novo-milenio-uniformes-ltda-novo-milenio-uniformes-ltda-05-335-577-0001",
+      "profile": "novomilenio",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1gsWGu8x5NbFPg_XiW40U8d_ox5yQtp07G8QZnk3DLw4/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/12-YnnHwxf38isoiyJLQVgfr2LjA5dT83Pp-eOmbeoUg/edit?gid=617612824",
+      "notes": "GP 3.0 2.2 Acomp. Mensal; Dez/25–Mai/26; fat R$ 121,9k; SQL→Venda 15,4%; margem 35%; above BEP R$ 30k"
+    },
+    {
+      "client": "PORTICO ARQUITETURA E CONSTRUCOES LTDA",
+      "strategy_review_row": 53,
+      "folder": "projects/53-portico-arquitetura-e-construcoes-ltda",
+      "profile": "portico",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1oQkS1UBWvJhGNMAUGzAoUmNy0xakqGaaKpLVApd5soc/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1x9hCQblsMUPcm90WQfACMh2bqrhi4G-DmOiAWJBxU1w/edit?gid=617612824",
+      "notes": "GP 3.0 Porti Fachadas 2.2 Sessões L8; Dez–Mai/26; fat R$ 0; margem 30% assumida; BEP R$ 16,7k"
+    },
+    {
+      "client": "IGA BLUMENAU(KAIROS GRI INSTITUTO DE GASTRONOMIA E CULINARIA LTDA )(KAIROS GRI INSTITUTO DE GASTRONOMIA E CULINARIA LTDA)",
+      "strategy_review_row": 54,
+      "folder": "projects/54-iga-blumenau-kairos-gri-instituto-de-gastronomia-e-culinaria-ltda-kairos",
+      "profile": "igablumenau",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1kOwxQ0tRN8z8gEpJYPRDrzvJ3gaJe4-KYFpYxVz8Xh0/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1mEyijGay_-l_ycCr9dCLMTo_bC4SnA45hgelhrzinWg/edit?gid=617612824",
+      "notes": "GP 3.0 6.0 Acomp. Mensal; Jan/25–Mai/26; MRR 6 meses; ticket R$ 522 → LTV R$ 3.135; BEP R$ 20k"
+    },
+    {
+      "client": "ONCO IMPORT ASSESSORIA E CONSULTORIA LTDA - Executar - 7f35366e-71bb-4277-a0de-1577e92d1e0b",
+      "strategy_review_row": 52,
+      "folder": "projects/52-onco-import-assessoria-e-consultoria-ltda-executar-7f35366e-71bb-4277-a0",
+      "profile": "oncimport",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/16IPBxrfZFtFJUCOSXI-oirknOwlZ_Y00nDqyzqkJpXo/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1h02p0SHE7yyW_6T2PsU1IJe1UJsT1K4iBme1vvzmZSE/edit?gid=617612824",
+      "notes": "GP 4.0 2.2 ONCO; Abr–Mai/26; 1 venda R$ 9k; margem 30% assumida; BEP R$ 27,6k; LT 3m"
+    },
+    {
+      "client": "BINARIO TECNOLOGIA DISTRIBUIDORA LTDA",
+      "strategy_review_row": 2,
+      "folder": "projects/02-binario-tecnologia-distribuidora-ltda",
+      "profile": "binario",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1I0QZ9DNv6cb5snjG2NgwcKrpQfqKh1tK-y16NkmNdOA/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1sjals2-GMw_RVdaah_SmCIuAdv3GrSmwa4z2CjIMvgc/edit?gid=617612824",
+      "notes": "GP 3.0 Marketplace 6.0; Ago/25–Jan/26; fat plataforma R$ 659k; margem 20%; BEP R$ 41,2k; LT 18m"
+    },
+    {
+      "client": "Promax Supertroca – Yanmar Agritech",
+      "strategy_review_row": 3,
+      "folder": "projects/03-promax-supertroca-yanmar-agritech",
+      "profile": "promax",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1QUclnYYZEkN3NW3rj3hapa3TcyZjMVye1oShWhe02j8/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1iyWUEgAue5Bykg-j6Y-2i5rf9qHUmaad1n-Oc17yS-o/edit?gid=617612824",
+      "notes": "GP 3.0 Promarcas 6.0 IS; Jan–Mai/26; 0 vendas; 325 leads Mai/26; margem 30%; BEP R$ 62,7k; LT 4m"
+    },
+    {
+      "client": "FIBRALINK SERVICOS DE TECNOLOGIA DA INFORMACAO LTDA",
+      "strategy_review_row": 62,
+      "folder": "projects/62-fibralink-servicos-de-tecnologia-da-informacao-ltda",
+      "profile": "fibralink",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1ksXG1bk7hpMw0R0P5iJcBjSHsqghFBu_Y7dE8KgW4lM/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1meD1MhdVcXtv3qAV2yrc9KqnpURXz7FDk8CXQfaZ0Dc/edit?gid=776105258",
+      "notes": "GP FibraLink Acomp. Mensal; Set/24–Mai/26; MRR 12m; ticket R$ 1,2k → LTV R$ 14,4k; BEP R$ 52,6k"
+    },
+    {
+      "client": "SA GONDOLAS DE ACO LTDA",
+      "strategy_review_row": 5,
+      "folder": "projects/05-sa-gondolas-de-aco-ltda",
+      "profile": "gondolas",
+      "breakeven_url": "https://docs.google.com/spreadsheets/d/1XQdfpj6O3T1C7hWqmdTh1khIfF_NssI5rsFWUQT3qmI/edit?usp=drivesdk",
+      "growthpack_url": "https://docs.google.com/spreadsheets/d/1w-FzPziZ9V0a3IRy11x8LXsVrKlWNDZpU6ewIXAeA0w/edit?gid=47048281",
+      "notes": "GP 5.0 SA 6.0 IS; Set/25–Mai/26; fat ~R$ 1,5M; margem 38%; BEP R$ 92,7k; LT 14m"
+    }
+  ]
+}

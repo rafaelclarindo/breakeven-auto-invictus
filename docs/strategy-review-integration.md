@@ -122,6 +122,14 @@ Antes de projetar, calcular o resultado acumulado histórico com os meses válid
 Resultado histórico = faturamento acumulado × margem - (fee acumulado + mídia acumulada)
 ```
 
+Mês em branco no GP (vendas/receita/funil) = **zero** no período — não inferir.
+
+### Impressões / sessões — mediana de CPI, não de volume
+
+- **Mediana:** CPI/CPS (Investimento ÷ topo do funil) e taxas do funil — mesma janela baseline (`select_projection_baseline_months`).
+- **M1 projetado:** `mídia Flow ÷ CPI_mediano` — nunca mediana do volume histórico.
+- **Planilha:** config `impression_traceability` + linha Impressões no Resumo (acum. funil vs M1). Ver `_context/decisions.md` (2026-06-22).
+
 Se o resultado histórico já for positivo, sinalizar que o breakeven já foi atingido no histórico e mostrar o primeiro mês em que o acumulado virou positivo. A projeção futura continua existindo, mas não deve tratar o projeto como se ainda precisasse recuperar carry over.
 
 ### Horizonte de projeção

@@ -1,0 +1,67 @@
+[
+  {
+    "sr_row": 1,
+    "client": "CONSTRUTORA E INCORPORADORA VILELA CAMPOS LTDA.",
+    "folder": "projects/20-construtora-e-incorporadora-vilela-campos-ltda",
+    "gp_id": "18ppHnsXmPjVvNYZopPDDqvxBiSajPy6SlBzvTUAjO2U",
+    "profile": "cdsi",
+    "funnel_months": 2,
+    "tm_recurrence_months": 22,
+    "breakeven_url": "https://docs.google.com/spreadsheets/d/1nD1eyZEmHuiAXOoP1IOS7yT1FZxN8MULHa7pbreKe2Q/edit?usp=drivesdk",
+    "status": "ok",
+    "warning": "GP receita inconsistente — revisar antes de apresentar"
+  },
+  {
+    "sr_row": 2,
+    "client": "MAIDPAD - ASSESSORIA BYLINE",
+    "folder": "projects/21-maidpad-assessoria-byline-maidpad",
+    "gp_id": "1UQ4tS029w_DJDPGAbvEtjficQiX0Z8gtJ8Z6y9D-SOc",
+    "tm_recurrence_months": 21,
+    "status": "blocked",
+    "error": "GP sem permissão OAuth (403). Compartilhar com rafael.clarindo@v4company.com"
+  },
+  {
+    "sr_row": 3,
+    "client": "INSTITUTO PANAMERICANO DE OFTALMOLOGIA LTDA",
+    "folder": "projects/22-instituto-panamericano-de-oftalmologia-ltda-instituto-panamericano-de-of",
+    "gp_id": "1YbnWKqE_yu8x5r7i-Ceu6GMGuyVePB56h-JyDX_T9ak",
+    "tm_recurrence_months": 3,
+    "status": "blocked",
+    "error": "GP sem permissão OAuth (403). Compartilhar com rafael.clarindo@v4company.com"
+  },
+  {
+    "sr_row": 4,
+    "client": "SIGO ERP (DUO3)",
+    "folder": "projects/04-sigo-erp-duo3-solucoes-em-tecnologia-da-informacao-ltda-duo3-solucoes-em",
+    "gp_id": "1FBLPH61TCcUui5azwMZS6QFVq_tRI5dtnMrHgFlg2aY",
+    "profile": "sigo",
+    "funnel_months": 10,
+    "tm_recurrence_months": 23,
+    "breakeven_url": "https://docs.google.com/spreadsheets/d/1RJ3F5qlKiUraMGjCd72_DwPU_Jntiaivbjx1chbwoHs/edit?usp=drivesdk",
+    "status": "ok"
+  },
+  {
+    "sr_row": 5,
+    "client": "ESCRITORIO VICENTINI & ANDRADE (MONETIZAÇÃO)",
+    "folder": "projects/23-escritorio-vicentini-andrade-sociedade-de-advogados-s-s-18-213-376-0001",
+    "gp_id": "1uzTSmnC-9yrNvp2td26fw_5zafMXP5QuAkPwh-spJ3U",
+    "profile": "vicentini",
+    "funnel_months": 2,
+    "tm_recurrence_months": 10,
+    "breakeven_url": "https://docs.google.com/spreadsheets/d/1UauGd7XtyEbL9klcg9tjCM9e2ZG4TcVtaMWZegA-4Rk/edit?usp=drivesdk",
+    "status": "ok",
+    "notes": "Pré-receita — ticket estimado, sql_sale fallback 15%"
+  },
+  {
+    "sr_row": 6,
+    "client": "MALBORK CORRETORA DE SEGUROS LTDA",
+    "folder": "projects/24-malbork-corretora-de-seguros-ltda",
+    "gp_id": "1UypffQrX2-FgPgqrPA3rbOTvhrA4HlyBa2inoEYnIVQ",
+    "profile": "malbork",
+    "funnel_months": 9,
+    "tm_recurrence_months": 30,
+    "breakeven_url": "https://docs.google.com/spreadsheets/d/18TL7jRxb54rJPbNoHZBJH3aLRj2RxWZKUpMxSboNQvQ/edit?usp=drivesdk",
+    "status": "ok",
+    "warning": "GP histórico 2024; MQL/SQL inferidos; margem 4%"
+  }
+]

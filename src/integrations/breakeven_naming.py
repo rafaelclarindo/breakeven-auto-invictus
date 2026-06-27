@@ -9,11 +9,17 @@ def is_inside_sales_model(project_model: str) -> bool:
     return "inside sales" in (project_model or "").lower()
 
 
+def is_marketplace_model(project_model: str) -> bool:
+    return "marketplace" in (project_model or "").lower()
+
+
 def breakeven_model_label(
     project_model: str = "",
     *,
     is_inside_sales: bool | None = None,
 ) -> str:
+    if is_marketplace_model(project_model):
+        return "Marketplace"
     if is_inside_sales is None:
         is_inside_sales = is_inside_sales_model(project_model)
     return "Inside Sales" if is_inside_sales else "E-commerce"

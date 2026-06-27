@@ -13,9 +13,8 @@ def breakeven_product_label(is_inside_sales: bool) -> str:
 
 
 def scenario_actual_column_label(config: dict) -> str:
-    period = config.get("current_period", "período atual")
-    month_hint = period.split()[0] if period else "atual"
-    return f"Atual acumulado /\nfunil {month_hint}"
+    period = config.get("lt_period") or config.get("current_period", "período atual")
+    return f"Atual acumulado\n({period})"
 
 
 def build_strategic_reading(
@@ -36,7 +35,7 @@ def build_strategic_reading(
 
     diagnosis = ctx.get("diagnosis") or []
     if diagnosis:
-        for item in diagnosis[:2]:
+        for item in diagnosis[:3]:
             lines.append(item)
     else:
         mapping = config.get("source_mapping", {})
@@ -45,6 +44,10 @@ def build_strategic_reading(
             f"Premissas derivadas do Growth Pack ({funnel_hint}). "
             f"Fee {fee_label}, mídia base {media_label}, margem {margin_pct}."
         )
+
+    imp = config.get("impression_traceability") or {}
+    if imp.get("projection_note") and imp["projection_note"] not in lines:
+        lines.append(imp["projection_note"])
 
     seasonal = ctx.get("seasonal") or config.get("strategy_review_context")
     if seasonal:

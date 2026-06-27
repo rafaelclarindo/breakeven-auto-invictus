@@ -45,9 +45,10 @@ def main():
         if config["margin"] <= 0 or config["margin"] > 1:
             errors.append("margin deve estar entre 0 e 1.")
         if len(config["source_months"]) != len(config["benchmark_months"]):
-            errors.append(
-                "source_months e benchmark_months devem cobrir o mesmo LT."
-            )
+            if len(config["source_months"]) < len(config["benchmark_months"]):
+                errors.append(
+                    "source_months não pode ser menor que benchmark_months."
+                )
         for row in config["source_months"]:
             if len(row) != 7:
                 errors.append(f"source_months inválido: {row}")
@@ -58,6 +59,17 @@ def main():
             scenario = config["scenarios"].get(name)
             if scenario is None:
                 errors.append(f"Cenário ausente: {name}")
+                continue
+            for field in REQUIRED_SCENARIO_FIELDS:
+                values = scenario.get(field)
+                if not isinstance(values, list) or len(values) != 7:
+                    errors.append(f"{name}.{field} deve conter 7 valores.")
+        for name in config.get("scenario_sheet_order") or []:
+            if name in ("Pessimista", "Realista", "Otimista"):
+                continue
+            scenario = config["scenarios"].get(name)
+            if scenario is None:
+                errors.append(f"Cenário em scenario_sheet_order ausente: {name}")
                 continue
             for field in REQUIRED_SCENARIO_FIELDS:
                 values = scenario.get(field)

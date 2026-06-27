@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Baixa Growth Packs da fila Breakeven Auto para as pastas por projeto."""
+"""Baixa Growth Packs da fila Breakeven Auto para as pastas por projeto.
+
+Opcional — o pipeline padrão lê o GP online via ``growthpack_sheets_reader`` (Sheets API).
+Use este script apenas para cache offline em ``source/growthpack.xlsx``.
+"""
 from __future__ import annotations
 
 import argparse

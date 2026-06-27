@@ -44,6 +44,10 @@ def main() -> None:
         help="Config JSON — deriva o nome padrão [Colli & CO] - [Cliente] - Breakeven … - AI Auto",
     )
     parser.add_argument("--share-anyone", action="store_true")
+    parser.add_argument(
+        "--replace-id",
+        help="ID de planilha existente no Drive — substitui o conteúdo (mesmo link)",
+    )
     args = parser.parse_args()
 
     if args.name:
@@ -56,11 +60,20 @@ def main() -> None:
 
     drive = build("drive", "v3", credentials=load_credentials())
     media = MediaFileUpload(str(args.xlsx), mimetype=XLSX_MIME, resumable=False)
-    created = drive.files().create(
-        body={"name": sheet_name, "mimeType": GOOGLE_SHEET_MIME},
-        media_body=media,
-        fields="id,name,webViewLink",
-    ).execute()
+    if args.replace_id:
+        updated = drive.files().update(
+            fileId=args.replace_id,
+            media_body=media,
+            body={"name": sheet_name},
+            fields="id,name,webViewLink",
+        ).execute()
+        created = updated
+    else:
+        created = drive.files().create(
+            body={"name": sheet_name, "mimeType": GOOGLE_SHEET_MIME},
+            media_body=media,
+            fields="id,name,webViewLink",
+        ).execute()
 
     if args.share_anyone:
         drive.permissions().create(

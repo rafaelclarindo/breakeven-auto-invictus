@@ -25,6 +25,8 @@ Workflow da skill: inspecionar GP → gate de alinhamento → JSON config → `g
 
 **Inside sales (Invictus):** ver [`docs/inside-sales-breakeven.md`](docs/inside-sales-breakeven.md) — exige `"project_model": "Inside Sales"` no config. E-commerce usa o pipeline original sem esse campo.
 
+**Handoff IS vs E-commerce (jun/2026):** [`docs/handoff-inside-sales-vs-ecommerce.md`](docs/handoff-inside-sales-vs-ecommerce.md) — arquitetura compartilhada/separada, entregas da sessão e guia para IA analisar e-commerce.
+
 ## Pipeline QGI (este projeto)
 
 ```

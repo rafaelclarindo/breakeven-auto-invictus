@@ -16,6 +16,7 @@ PROJECT = Path(__file__).resolve().parents[2]
 MONITOR = PROJECT.parent / "monitor-invictus"
 TATICO = PROJECT.parent / "tatico-gerencial" / "src" / "sistema-invictus"
 sys.path.insert(0, str(MONITOR))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 SHEET_ID = "1MrUklD9tulNHsxWmAh3fcUUBlBdY-IHzSUuEPAz32YQ"
 SHEET_TAB = "Start Strategy Review"
@@ -214,11 +215,13 @@ def lookup(name_idx: dict[str, dict], project: str) -> dict | None:
     return None
 
 
-def read_sheet_projects() -> list[str]:
+def read_sheet_projects() -> list[dict]:
     from google.auth.transport.requests import Request
     from google.oauth2.credentials import Credentials
     from googleapiclient.discovery import build
     import openpyxl
+
+    from strategy_review_fields import parse_lt_months, parse_mrr_months
 
     info = json.loads(CRED_PATH.read_text(encoding="utf-8"))
     creds = Credentials(
@@ -240,15 +243,29 @@ def read_sheet_projects() -> list[str]:
     wb = openpyxl.load_workbook(BytesIO(xlsx), read_only=True, data_only=True)
     ws = wb[SHEET_TAB] if SHEET_TAB in wb.sheetnames else wb.active
 
-    projects: list[str] = []
-    for row in ws.iter_rows(min_row=2, min_col=2, max_col=2, values_only=True):
-        val = row[0] if row else None
+    projects: list[dict] = []
+    for row_idx in range(2, ws.max_row + 1):
+        val = ws.cell(row_idx, 2).value
         if not val:
             continue
         project = str(val).strip()
         if project.startswith("---") or project.upper() in {"TOTAL", "PROJETO"}:
             continue
-        projects.append(project)
+        lt_raw = ws.cell(row_idx, 8).value
+        mrr_raw = ws.cell(row_idx, 12).value
+        lt_months = parse_lt_months(lt_raw)
+        mrr_text = str(mrr_raw).strip() if mrr_raw is not None and str(mrr_raw).strip() else None
+        mrr_months = parse_mrr_months(mrr_raw) if mrr_text else None
+        projects.append(
+            {
+                "name": project,
+                "lt_months": lt_months,
+                "mrr_raw": mrr_text,
+                "mrr_months": mrr_months,
+                "tm_recurrence_raw": mrr_text,
+                "tm_recurrence_months": mrr_months,
+            }
+        )
     wb.close()
     return projects
 
@@ -261,7 +278,8 @@ def main() -> None:
     sheet_projects = read_sheet_projects()
 
     projects = []
-    for i, name in enumerate(sheet_projects, 1):
+    for i, row in enumerate(sheet_projects, 1):
+        name = row["name"]
         meta = lookup(name_idx, name) or {}
         projects.append({
             "order": i,
@@ -273,6 +291,26 @@ def main() -> None:
             "media_planned": meta.get("media_planned"),
             "margin_pct": meta.get("margin_pct"),
             "growthpack_updated_link": meta.get("growthpack_updated_link"),
+            "lt_months": row.get("lt_months"),
+            "lt_source": (
+                "Strategy Review col. H — Life Time (contrato ativo)"
+                if row.get("lt_months")
+                else None
+            ),
+            "mrr_raw": row.get("mrr_raw"),
+            "mrr_months": row.get("mrr_months"),
+            "mrr_source": (
+                "Strategy Review col. L — MRR"
+                if row.get("mrr_months") and row.get("mrr_raw")
+                else None
+            ),
+            "tm_recurrence_raw": row.get("mrr_raw"),
+            "tm_recurrence_months": row.get("mrr_months"),
+            "tm_recurrence_source": (
+                "Strategy Review col. L — MRR"
+                if row.get("mrr_months") and row.get("mrr_raw")
+                else None
+            ),
             "cockpit_fields": {
                 "fee": "fee",
                 "media_planned": "campaigns_budget_milestone_total_qty",
@@ -286,7 +324,7 @@ def main() -> None:
         "sheet_tab": SHEET_TAB,
         "sheet_url": f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/edit#gid=226918461",
         "generated_at": today,
-        "source": "Flow Cockpit + Strategy Review col B",
+        "source": "Flow Cockpit + Strategy Review col B/H/L",
         "project_count": len(projects),
         "with_growthpack_link": sum(1 for p in projects if p.get("growthpack_updated_link")),
         "projects": projects,
